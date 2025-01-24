@@ -1,20 +1,29 @@
-// Fibonacci series
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    int n, last = 0, cur = 1, next;
-    cout << "Enter the number of terms for the Fibonacci series:: ";
-    cin >> n;
-    for (int i = 1; i <= n; i++)
-    {
+    int n;
 
-        cout << last << " ";
-        next = last + cur;
-        last = cur;
-        cur = next;
+    cout << "Enter a number : ";
+    cin >> n;
+
+    int arr[1000];
+
+    // Initialize the first two Fibonacci numbers
+    arr[0] = 0; // The 1st Fibonacci number is 0
+    arr[1] = 1; // The 2nd Fibonacci number is 1
+
+    // Use a loop to calculate the Fibonacci numbers from 2 to n-1
+    for (int i = 2; i <= n - 1; i++)
+    {
+        // Each number is the sum of the two preceding numbers
+        arr[i] = arr[i - 1] + arr[i - 2];
     }
 
-    return 0;
+    // Print the n-th Fibonacci number (indexed at n-1 in the array)
+
+    cout << arr[n - 1] << " ";
+
+    return 0; // Indicate successful program execution
 }
