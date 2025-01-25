@@ -3,15 +3,15 @@
 using namespace std;
 int main()
 {
-    int n;
+    int num;
     cout << "Enter a number : ";
-    cin >> n;
+    cin >> num;
     int sum = 0;
-    for (int i = 1; i <= n; i++)
+    for (int i = 1; i <= num; i++)
     {
         sum += i;
     }
-    cout << "Sum from 1 to " << n << " is " << sum;
+    cout << "Sum from 1 to " << num << " is " << sum;
 
     return 0;
 }
