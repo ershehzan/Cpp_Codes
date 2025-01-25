@@ -3,17 +3,17 @@ using namespace std;
 int main()
 {
 
-    int n, sum = 0;
-    cout << "Enter a num :";
-    cin >> n;
+    int num, sum = 0;
+    cout << "Enter a Number :";
+    cin >> num;
     int i = 1; // Initialize
     do
     {
-        sum = sum + i;
+        sum  += i;
         cout << sum << endl;
         i++;
 
-    } while (i <= n);
+    } while (i <= num);
 
     return 0;
 }
