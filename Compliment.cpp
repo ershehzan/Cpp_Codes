@@ -2,18 +2,18 @@
 using namespace std;
 int main()
 {
-    int n, ans = 0, rem, mul = 1;
+    int num, ans = 0, rem, mul = 1;
     cout << "Enter a number: ";
-    cin >> n;
+    cin >> num;
 
-    while (n)
+    while (num)
     {
 
-        rem = n % 2;
+        rem = num % 2;
         rem = rem ^ 1;
-        ans = ans + rem * mul;
+        ans += rem * mul;
         mul *= 2;
-        n /= 2;
+        num /= 2;
     }
     cout << ans;
     return 0;
