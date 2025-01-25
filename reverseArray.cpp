@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
 
-    int arr[6] = {1, 2, 3, 4, 5, 6};
+    int arr[10] = {1, 2, 3, 4, 5, 6,7,8,9,10};
 
-    int start = 0, end = 5;
+    int start = 0, end = 9;
 
     while (start < end)
     {
@@ -14,7 +14,7 @@ int main()
         start++;
         end--;
     };
-    for (int i = 0; i < 6; i++)
+    for (int i = 0; i < 10; i++)
         cout << arr[i];
 
     return 0;
