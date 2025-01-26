@@ -9,7 +9,7 @@ int main()
     while (start <= end)
     {
 
-        int mid = start + (end - start) / 2;
+        int mid = start + (end - start) / 2;// to avoid overflow
         if (arr[mid] >= arr[0])
         {
             start = mid + 1;
@@ -20,6 +20,6 @@ int main()
             end = mid - 1;
         }
     }
-    cout << ans;
+    cout <<"Minimum element in rotated array is "<< ans<<endl;
     return 0;
 }
