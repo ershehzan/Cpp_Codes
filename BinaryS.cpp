@@ -1,18 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int BinarySearch(int arr[], int key, int n)
+int BinarySearch(int arr[], int target, int num)
 {
-    int start = 0, end = n - 1, mid;
+    int start = 0, end = num- 1, mid;
     while (start <= end)
     {
         int mid = (start + end) / 2;
-        if (arr[mid] == key)
+        if (arr[mid] == target)
         {
             cout << "Element found at index ";
             return mid;
         }
-        else if (arr[mid] < key)
+        else if (arr[mid] <target)
         {
 
             start = mid + 1;
@@ -29,17 +29,17 @@ int BinarySearch(int arr[], int key, int n)
 int main()
 {
     int arr[1000];
-    int n;
+    int num;
     cout << "Enter the index of array : ";
-    cin >> n;
+    cin >> num;
     cout << "Enter the elements of array : ";
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i <num; i++)
         cin >> arr[i];
 
-    int key;
+    int target;
     cout << "Enter the number to search : " << endl;
-    cin >> key;
+    cin >> target;
 
-    cout << BinarySearch(arr, key, n) << endl;
+    cout << BinarySearch(arr, target,num) << endl;
     return 0;
 }
