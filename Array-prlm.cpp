@@ -3,14 +3,15 @@ using namespace std;
 
 int main()
 {
-    int arr[1000], n;
+    int arr[1000];
 
     // Input array size
-    cout << "Enter the size of the array: ";
+    int n;
+    cout << "Enter the size of the Array: ";
     cin >> n;
 
     // Input array elements
-    cout << "Enter the elements of the array: ";
+    cout << "Enter the elements of the Array: ";
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
