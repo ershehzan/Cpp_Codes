@@ -34,7 +34,7 @@ int main()
 
     // Calculate the k-th missing number using `ans` and `k`
     // `ans` is the index where the k-th missing number lies, and we add `k` to adjust for the missing offset
-    cout << ans + k;
+    cout <<"The Kth Missing Positive Integer is : "<< ans + k<<endl;
 
-    return 0; // Indicate successful program termination
+    return 0; 
 }
