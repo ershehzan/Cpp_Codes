@@ -3,15 +3,15 @@
 using namespace std;
 int main()
 {
-    int n;
+    int num;
     cout << "Enter a number : ";
-    cin >> n;
+    cin >> num;
     double fact = 1;
-    for (int i = 1; i <= n; i++)
+    for (int i = 1; i <= num; i++)
     {
         fact *= i;
     }
-    cout << "Factorial of " << n << " is " << fact;
+    cout << "Factorial of " << num << " is " << fact;
 
     return 0;
 }
