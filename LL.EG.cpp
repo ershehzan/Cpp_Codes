@@ -26,7 +26,7 @@ int main() {
     second->country = "USA";
     second->next = third;
 
-    third->name = "Abdulla";
+    third->name = "Abdullah";
     third->age = 35;
     third->country = "UAE";
     third->next = fourth;
