@@ -15,19 +15,19 @@ int main()
     Node *fourth = new Node();
     Node *five = new Node();
 
-    first->data = 10;
+    first->data = 100;
     first->next = second;
 
-    second->data = 20;
+    second->data = 200;
     second->next = third;
 
-    third->data = 30;
+    third->data = 300;
     third->next = fourth;
 
-    fourth->data = 40;
+    fourth->data = 400;
     fourth->next = five;
 
-    five->data = 50;
+    five->data = 500;
     five->next = nullptr;
 
     Node *current = first;
