@@ -38,7 +38,7 @@ int main()
 
     {
         length++;
-        cout << current->data << " ";
+        cout << current->data << "  ";
         current = current->next;
     }
     cout << "\n The Lenght of Linked List is : " << length << endl;
