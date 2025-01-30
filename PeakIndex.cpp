@@ -4,8 +4,9 @@ using namespace std;
 int main()
 {
     int arr[] = {2, 4, 6, 8, 10, 8, 5};
-    int size = sizeof(arr) / sizeof(arr[0]);
-    int start = 0, end = size - 1;
+  //  int size = sizeof(arr) / sizeof(arr[0]);
+    int start = 0,end=6;
+    // int end = size - 1;
 
     while (start < end)
     {
@@ -29,8 +30,8 @@ int main()
         }
     }
 
-    // After the loop, start and end converge at the peak element
-    cout << "Peak Element is at index: " << start << endl;
+   // After the loop, start and end converge at the peak element
+    cout << "Peak Element is at index " << start <<" is : "<<arr[start]<< endl;
 
     return 0;
 }
