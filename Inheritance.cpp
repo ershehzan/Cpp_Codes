@@ -14,17 +14,17 @@ public:
     }
     void display_data()
     {
-        cout << "student name is : " << stu_name << endl;
-        cout << "student grade is : " << stu_grade << endl;
+        cout << "Student name is : " << stu_name << endl;
+        cout << "Student grade is : " << stu_grade << endl;
     }
 };
 int main()
 {
     student s, s1;
-    s1.get_data(" shan ", 'C');
+    s1.get_data(" Nand kishor ", 'A');
     s1.display_data();
-    s.stu_name = " Sham";
-    s.stu_grade = 'A';
+    s.stu_name = " Binod";
+    s.stu_grade = 'B';
     cout << "student name is : " << s.stu_name << endl;
     cout << "student grade is : " << s.stu_grade << endl;
 }
