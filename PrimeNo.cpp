@@ -4,19 +4,19 @@ using namespace std;
 
 int main()
 {
-    int n;
+    int num;
     cout << "Enter a number: ";
-    cin >> n;
+    cin >> num;
 
-    if (n < 2)
+    if (num < 2)
     {
         cout << "Number is not prime";
         return 0;
     }
 
-    for (int i = 2; i <= n/2; i++) 
+    for (int i = 2; i <= num/2; i++) 
     {
-        if (n % i == 0)
+        if (num % i == 0)
         {
             cout << "Number is not prime";
             return 0;
