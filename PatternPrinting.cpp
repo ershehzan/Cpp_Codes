@@ -2,12 +2,12 @@
 using namespace std;
 int main()
 {
-    int n;
-    cin >> n;
+    int num;
+    cin >> num;
     int row, col;
-    for (row = 1; row <= n; row++)
+    for (row = 1; row <= num; row++)
     {
-        for (col = 1; col <= n; col++)
+        for (col = 1; col <= num; col++)
         {
             cout << col * col << " ";
         }
