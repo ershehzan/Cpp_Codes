@@ -2,16 +2,16 @@
 using namespace std;
 int main()
 {
-    // i=row    j=column
-    int n, i, j;
+ 
+    int n, row, col;
     cout << "Enter a number :";
     cin >> n;
-    for (i = 1; i <= n; i++)
+    for (row = 1; row <= n; row++)
     {
         // Nested loop
-        for (j = 1; j <= n; j++)
+        for ( col = 1;  col <= n;  col++)
         {
-            cout << j << " ";
+            cout <<  col << " ";
         }
         cout << endl;
     }
