@@ -2,14 +2,15 @@
 using namespace std;
 int main()
 {
-    int num;
-    cin >> num;
-    int row, col;
-    for (row = 1; row <= num; row++)
+    int n;
+    cin >> n;
+    // Row = i    Column = j
+    int i, j;
+    for (i = 1; i <= n; i++)
     {
-        for (col = 1; col <= num; col++)
+        for (j = 1; j <= n; j++)
         {
-            cout << col * col << " ";
+            cout << j * j << " ";
         }
         cout << endl;
     }
