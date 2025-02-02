@@ -3,15 +3,15 @@ using namespace std;
 int main()
 {
     // i=row    j=column
-    int n, i, j;
+    int num;
 
     cout << "Enter a number :";
-    cin >> n;
-    for (i = 1; i <= n; i++)
+    cin >> num;
+    for (int i = 1; i <= num; i++)
     {
         char name = 'a' + (i - 1);
         // Nested loop
-        for (j = 1; j <= n; j++)
+        for (int j = 1; j <= num; j++)
         {
             cout << name << "  ";
         }
