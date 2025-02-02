@@ -3,13 +3,13 @@ using namespace std;
 int main()
 {
     // i=row    j=column
-    int n, i, j;
+    int n;
     cout << "Enter a number :";
     cin >> n;
-    for (i = 1; i <= n; i++)
+    for (int i = 1; i <= n; i++)
     {
         // Nested loop
-        for (j = 1; j <= n; j++)
+        for (int j = 1; j <= n; j++)
         {
             cout << " * ";
         }
