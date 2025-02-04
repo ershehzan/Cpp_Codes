@@ -12,16 +12,20 @@ void insertAtBeginning(int arr[], int &n, int element) {
 }
 
 int main() {
-    int arr[100] = {10, 20, 30, 40}; // Initial array with 4 elements
-    int n = 4; // Current number of elements in the array
+   int arr[1000];
+    int n;
+    cout << "Enter the index of array: ";
+    cin >> n;
 
     cout << "Array before insertion: ";
-    for (int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
     }
-    cout << endl;
 
-    int newElement = 5; // Element to be inserted at the beginning
+  int newElement; // Element to be inserted at the beginning
+    cout << "Enter the element to be inserted: ";
+    cin >> newElement;
     insertAtBeginning(arr, n, newElement);
 
     cout << "Array after insertion: ";
