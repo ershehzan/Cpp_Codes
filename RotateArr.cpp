@@ -3,12 +3,12 @@ using namespace std;
 int main()
 {
     int i;
-    int arr[1000] = {1, 2, 3, 4, 5, 6, 7, 8};
+    int arr[1000];
     // Store the last element in a temporary variable
-    int temp = arr[7];
+    int temp = arr[n-1];
 
     // Shift elements to the right
-    for (i = 7; i > 0; i--)
+    for (i = n-1; i > 0; i--)
     {
         arr[i] = arr[i - 1];
     }
@@ -16,7 +16,7 @@ int main()
     arr[0] = temp;
 
     cout << "Rotated array: ";
-    for (i = 0; i < 8; i++)
+    for (i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
     }
