@@ -13,7 +13,7 @@ int main()
     
  cin>>arr[i];   }
     int k; 
-    cout << "Enter :"; 
+       cout << "Enter the position of missing element: "; 
     cin >> k; 
 
     // Initialize variables for binary search
