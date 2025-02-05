@@ -4,14 +4,20 @@ using namespace std;
 int main()
 {
     // Define an array of integers containing sorted positive integers with missing numbers
-    int arr[1000] = {2, 3, 4, 7, 11, 12};
+    int arr[1000];
+    int n,i;
+    cout<<"Enter the index";
+    cin>>n;
+    cout<<"Enter the Elements";
+    for(i=0;i<n;i++){
     
+ cin>>arr[i];   }
     int k; 
     cout << "Enter :"; 
     cin >> k; 
 
     // Initialize variables for binary search
-    int start = 0, end = 5, mid, ans = 6; 
+    int start = 0, end = n-1, mid, ans = n; 
 
     // Perform binary search to determine the position of the k-th missing number
     while (start <= end)
