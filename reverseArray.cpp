@@ -1,3 +1,4 @@
+
 #include <iostream>
 using namespace std;
 
@@ -5,15 +6,16 @@ int main()
 {
 
     int arr[1000];
-    int n,i;
-    cout<<"Enter the index: ";
-        cin>>n;
-    cout<<"Enter the Elements: ";
-    for(i=0;i<n;i++){
-cin>>arr[i];
+    int n, i;
+    cout << "Enter the index: ";
+    cin >> n;
+    cout << "Enter the Elements: ";
+    for (i = 0; i < n; i++)
+    {
+        cin >> arr[i];
     }
 
-    int start = 0, end = n-1;
+    int start = 0, end = n - 1;
 
     while (start < end)
     {
@@ -22,7 +24,7 @@ cin>>arr[i];
         end--;
     };
     for (int i = 0; i < n; i++)
-        cout << arr[i];
+        cout << arr[i] << " ";
 
     return 0;
 }
