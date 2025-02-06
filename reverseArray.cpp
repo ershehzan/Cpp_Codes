@@ -4,9 +4,16 @@ using namespace std;
 int main()
 {
 
-    int arr[10] = {1, 2, 3, 4, 5, 6,7,8,9,10};
+    int arr[1000];
+    int n,i;
+    cout"Enter the index: ";
+        cin>>n;
+    cout<<"Enter the Elements: ";
+    for(i=0;i<n;i++){
+cin>>arr[i];
+    }
 
-    int start = 0, end = 9;
+    int start = 0, end = n-1;
 
     while (start < end)
     {
@@ -14,7 +21,7 @@ int main()
         start++;
         end--;
     };
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < n; i++)
         cout << arr[i];
 
     return 0;
