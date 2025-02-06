@@ -6,7 +6,7 @@ int main()
 
     int arr[1000];
     int n,i;
-    cout"Enter the index: ";
+    cout<<"Enter the index: ";
         cin>>n;
     cout<<"Enter the Elements: ";
     for(i=0;i<n;i++){
