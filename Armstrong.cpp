@@ -1,41 +1,51 @@
 #include <iostream>
-#include <cmath>
+#include <cmath> // For using pow() function
 using namespace std;
 
-int countdigit(int num)
+// Function to count the number of digits in a given number
+int countdigit(int n)
 {
     int count = 0;
-    while (num)
+    while (n) // Loop runs until n becomes 0
     {
-        count++;
-        num = num / 10;
+        count++;  
+        n = n / 10; // Remove the last digit
     }
-    return count;
+    return count; // Return the total count of digits
 }
 
-bool armstrong(int num, int digit)
+// Function to check whether a number is an Armstrong number
+bool armstrong(int n, int digit)
 {
-    int n = num, ans = 0, rem;
-    while (n)
+    int temp = n, ans = 0, rem;
+    
+    // Loop to extract digits and compute the Armstrong sum
+    while (temp)
     {
-        rem = n % 10; // Use 'n' instead of 'num' here
-        n /= 10;
-        ans = ans + pow(rem, digit);
+        rem = temp % 10; // Extract the last digit
+        temp /= 10;      // Remove the last digit
+        ans = ans + pow(rem, digit); // Add the digit raised to the power of 'digit'
     }
-    return ans == num; // Compare with original 'num'
+
+    return ans == n; // Return true if Armstrong condition is met, else false
 }
 
 int main()
 {
-    int num;
+    int n;
+    
+    // User input
     cout << "Enter a number: ";
-    cin >> num;
-    // Count digits
-    int digit = countdigit(num);
-    // Check Armstrong number
-    if (armstrong(num, digit))
-        cout << num << " is an Armstrong number." << endl;
+    cin >> n;
+
+    // Count the number of digits in the input number
+    int digit = countdigit(n);
+
+    // Check if the number is an Armstrong number
+    if (armstrong(n, digit))
+        cout << n << " is an Armstrong number." << endl;
     else
-        cout << num << " is not an Armstrong number." << endl;
-    return 0;
+        cout << n << " is not an Armstrong number." << endl;
+
+    return 0; // Exit successfully
 }
