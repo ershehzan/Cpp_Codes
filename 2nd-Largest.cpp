@@ -4,38 +4,43 @@ using namespace std;
 
 int main()
 {
-    // Largest
-    int arr[1000];
+    int arr[1000];  // Array to store elements
     int n;
-    int ans = INT_MIN;
-    cout << "Enter the index: ";
+    int ans = INT_MIN;  // Variable to store the largest element
+
+    // Taking input for number of elements
+    cout << "Enter the number of elements: ";
     cin >> n;
 
-    cout << "Enter the Elements: ";
-    for (int i = 0; i < n; i++)  // Fixed loop condition
+    // Taking input for array elements
+    cout << "Enter the elements: ";
+    for (int i = 0; i < n; i++)  // Loop correctly runs n times
     {
         cin >> arr[i];
     }
 
-    for (int i = 0; i < n; i++)  // Moved max calculation outside input loop
+    // Finding the largest element
+    for (int i = 0; i < n; i++)  
     {
-        if (arr[i] > ans)
+        if (arr[i] > ans)  
         {
-            ans = arr[i];
+            ans = arr[i];  // Update the largest element
         }
     }
 
-    // Second Largest
+    // Finding the second largest element
     int sec = INT_MIN;
-    for (int i = 0; i < n; i++)  // Fixed loop condition
+    for (int i = 0; i < n; i++)  
     {
-        if (arr[i] != ans && arr[i] > sec)  // Fixed second largest logic
+        if (arr[i] != ans && arr[i] > sec)  // Ensuring it's not equal to the largest element
         {
-            sec = arr[i];
+            sec = arr[i];  // Update second largest element
         }
     }
 
-    cout << "Largest Element is : " << ans << endl;
-    cout << "Second Largest Element is : " << sec << endl;
+    // Displaying results
+    cout << "Largest Element is: " << ans << endl;
+    cout << "Second Largest Element is: " << sec << endl;
+    
     return 0;
 }
