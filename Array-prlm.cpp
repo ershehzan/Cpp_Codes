@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int arr[1000];
+    int arr[1000]; // Array to store elements
 
     // Input array size
     int n;
@@ -17,19 +17,20 @@ int main()
         cin >> arr[i];
     }
 
-    // Removing duplicates
-    for (int i = 0; i < n - 1; i++)
+    // Removing duplicate elements
+    for (int i = 0; i < n - 1; i++) // Outer loop to iterate through each element
     {
-        for (int j = i + 1; j < n;)
+        for (int j = i + 1; j < n;) // Inner loop to compare with the rest of the array
         {
-            if (arr[i] == arr[j])
+            if (arr[i] == arr[j]) // If a duplicate is found
             {
-                // Shift elements to the left
+                // Shift elements to the left to remove the duplicate
                 for (int k = j; k < n - 1; k++)
                 {
                     arr[k] = arr[k + 1];
                 }
-                n--; // Reduce array size
+                n--; // Reduce the size of the array
+                // No need to increment `j` as the next element shifts into `j`'s place
             }
             else
             {
