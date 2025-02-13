@@ -1,20 +1,23 @@
 #include <iostream>
 using namespace std;
 
+// Define a structure for a Node in the linked list
 struct Node
-{ // holds the integer value
-    int data;
-    Node *next; // points to the next node
+{
+    int data;   // Holds the integer value
+    Node *next; // Pointer to the next node
 };
+
 int main()
 {
-
+    // Creating five nodes dynamically
     Node *first = new Node();
     Node *second = new Node();
     Node *third = new Node();
     Node *fourth = new Node();
     Node *five = new Node();
 
+    // Assigning data values and linking nodes together
     first->data = 10;
     first->next = second;
 
@@ -28,30 +31,36 @@ int main()
     fourth->next = five;
 
     five->data = 50;
-    five->next = nullptr;
+    five->next = nullptr; // Marks the end of the linked list
 
+    // Asking user for the number to search
     int target;
-    cout << "Enter the number to search :";
+    cout << "Enter the number to search: ";
     cin >> target;
 
-    Node *current = first;
-    bool found = false;
+    // Searching for the target number in the linked list
+    Node *current = first; // Start from the first node
+    bool found = false;     // Flag to track if the number is found
+
     while (current != nullptr)
     {
-        if (current->data == target)
+        if (current->data == target) // If the target is found
         {
             found = true;
-            break;
+            break; // Exit the loop early
         }
-        current = current->next;
+        current = current->next; // Move to the next node
     }
+
+    // Display the result based on search outcome
     if (found)
     {
-        cout << "Number " << target << " is found in the linked list :" << endl;
+        cout << "Number " << target << " is found in the linked list." << endl;
     }
     else
     {
-        cout << "Number " << target << " is not found in the linked list :" << endl;
+        cout << "Number " << target << " is not found in the linked list." << endl;
     }
-    return 0;
+
+    return 0; // End of program
 }
