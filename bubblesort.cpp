@@ -12,7 +12,7 @@ int main()
 
     // Prompt the user to enter the array elements
     cout << "Enter the elements of array: ";
-    for (i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         cin >> arr[i]; // Read each element and store it in the array
     }
@@ -28,9 +28,10 @@ int main()
             }
         }
     }
+    cout <<"Sorted Array:" ;
     for (int i = 0; i < n; i++)
     {
-        cout << arr[i] << " ";
+       cout<<arr[i] << " ";
     }
 
     return 0;
