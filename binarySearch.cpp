@@ -5,24 +5,26 @@ using namespace std;
 int main()
 {
 
-    int n, l = 0, r=n-1, m,target;
-    
-    int arr[1000];
-    cout<<"Enter the index: ";
-    cin>>n;
-    cout<<"Enter the Elements of Array: ";
+    int n, l = 0, m, target;
 
-    for(int i=0;i<n;i++){
-cin>>arr[i];
+    int arr[1000];
+
+    cout << "Enter the index: ";
+    cin >> n;
+    cout << "Enter the Elements of Array: ";
+
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
     }
-    
+
     cout << "Enter the Number to search: ";
 
     cin >> target;
- // Set r to the last index of the array
+    // Set r to the last index of the array
 
     // Begin binary search
-
+    int r = n - 1;
     while (l <= r)
     {
 
@@ -31,7 +33,7 @@ cin>>arr[i];
         if (arr[m] == target)
         {
 
-            cout << "Element is present at index " << m << endl;
+            cout << "Element is present at index: " << m << endl;
 
             return 0; // Exit if element is found
         }
@@ -49,7 +51,7 @@ cin>>arr[i];
         }
     }
 
-    cout << "Element is not present in the array" << endl; // If element is not found
+    cout << "Element is not present in the array: " << endl; // If element is not found
 
     return 0;
 }
