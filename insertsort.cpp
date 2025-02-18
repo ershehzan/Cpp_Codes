@@ -7,11 +7,11 @@ int main()
     int i, j, key; // Declare variables for loop control and key for insertion
 
     // Initialize an array of size 6 with unsorted elements
-    int arr[10] = {10, 41, 64, 29, 11, 9,5,7,9,11};
+    int arr[15] = {10, 41, 64, 29, 11, 17,5,7,9,11,91,43,57,89,24};
 
     // Insertion Sort Algorithm
     // Start from the second element (index 1) and move towards the last element
-    for (i = 1; i < 10; i++)
+    for (i = 1; i < 15; i++)
     {
         key = arr[i]; // Store the current element (key) that needs to be placed correctly
         j = i - 1;    // Start comparing with the previous element
@@ -27,7 +27,7 @@ int main()
 
     // Print the sorted array
    cout << "Sorted Array is: ";
-    for (i = 0; i < n; i++)
+    for (i = 0; i < 15; i++)
     {
         cout << arr[i] << " "; // Output each sorted element separated by a space
     }
