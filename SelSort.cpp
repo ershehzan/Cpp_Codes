@@ -1,4 +1,4 @@
-// Online C++ compiler to run C++ program online
+
 #include <iostream>
 using namespace std;
 int main()
@@ -6,15 +6,15 @@ int main()
 
     int arr[1000];
     int n;
-    cout<<"Enter the index: ";
-    cin>>n;
-    cout<<"Enter the elements of array";
-    for(int i = 0;i<n;i++){
-cin>>arr[i];
-
+    cout << "Enter the Index: ";
+    cin >> n;
+    cout << "Enter the Elements of Array: ";
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
     }
 
-    for (int i = 0; i < n-1; i++)
+    for (int i = 0; i < n - 1; i++)
     {
 
         int index = i;
@@ -25,9 +25,11 @@ cin>>arr[i];
         }
         swap(arr[i], arr[index]);
     }
+
+    cout<<"Sorted Array are: ";
     for (int i = 0; i < n; i++)
     {
-        cout << arr[i] <<" ";
+        cout << arr[i] << " ";
     }
 
     return 0;
