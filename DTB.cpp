@@ -23,5 +23,5 @@ int main()
 
     // Output the binary equivalent
     cout << "Binary Number is : " << ans;
-    return 0; // End of the program
+    return 0;
 }
