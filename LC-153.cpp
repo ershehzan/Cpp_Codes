@@ -1,4 +1,4 @@
-#include <iostream>  // Include the iostream library for input/output operations
+#include <iostream>  
 using namespace std;
 
 int main()
@@ -30,5 +30,5 @@ int main()
     // Print the minimum element found in the rotated sorted array
     cout << "Minimum element in rotated array is " << ans << endl;
 
-    return 0; // Indicate successful program execution
+    return 0;
 }
