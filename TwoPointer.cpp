@@ -9,28 +9,32 @@ int main() {
     // Display the array elements
     for (size_t i = 0; i < arr.size(); ++i)
     {
-        cout << arr[i] << " ";
+        cout << arr[i] << " "; // Print each element of the array
     }
-    cout << endl;
+    cout << endl; // Print a newline character at the end
 
-    size_t start = 0, end = arr.size() - 1; // Two pointers
+    size_t start = 0, end = arr.size() - 1; // Two pointers initialized to the beginning and end of the array
 
     // Two-pointer approach to find the pair
     while (start < end) {
-        int sum = arr[start] + arr[end];
+        int sum = arr[start] + arr[end]; // Calculate the sum of the elements at the two pointers
 
         if (sum == target) {
+            // If the sum is equal to the target, print the indices of the pair and exit
             cout << "Pair found: [" << start << "," << end << "]" << endl;
             return 0; // Exit after finding the first pair
         } 
         else if (sum > target) {
-            end--; // Decrease 'end' to reduce sum
+            // If the sum is greater than the target, move the 'end' pointer to the left to reduce the sum
+            end--;
         } 
         else {
-            start++; // Increase 'start' to increase sum
+            // If the sum is less than the target, move the 'start' pointer to the right to increase the sum
+            start++;
         }
     }
 
+    // If no pair is found, print a message indicating that
     cout << "No pair found" << endl;
-    return 0;
+    return 0; // Return 0 to indicate successful execution
 }
