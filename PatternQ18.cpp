@@ -1,26 +1,35 @@
-#include <iostream>
+#include <iostream> 
 using namespace std;
+
 int main()
 {
-    int n, i, j;
-    cout << "Enter the number : ";
-    cin >> n;
+    int n, i, j; // Declare variables
 
+  
+    cout << "Enter the number: ";
+    cin >> n; // Take input from the user
+
+    // Outer loop: Controls the number of rows (1 to n)
     for (i = 1; i <= n; i++)
     {
-    //space print
-        for (j = 1; j <= n-i; j++)
+        // Inner loop 1: Prints spaces to align numbers to the right
+        for (j = 1; j <= n - i; j++)
         {
-            cout << " ";
+            cout << " "; // Print space
         }
+
+        // Inner loop 2: Prints decreasing numbers from 'i' to 1
         for (j = i; j >= 1; j--)
         {
-            cout << j << " ";
+            cout << j << " "; // Print number followed by a space
         }
-        cout << endl;
+
+        cout << endl; // Move to the next line after printing each row
     }
-    return 0;
+
+    return 0; 
 }
+
 /* Output
 
     1 
