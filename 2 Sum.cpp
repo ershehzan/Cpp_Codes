@@ -20,7 +20,8 @@ int main() {
         int sum = arr[start] + arr[end]; // Calculate the sum of elements at start and end indexes
 
         if (sum == target) {  // If the sum matches the target
-            cout << "Pair found: [" << start << "," << end << "]" << endl;
+            cout << "Pair found: [" << arr[start] << "," << arr[end] << "]" << endl;
+             cout << "Pair found at Index: [" << start << "," << end << "]" << endl;
             return 0; // Exit the program as we found a valid pair
         } else if (sum > target) { // If sum is greater, move the end pointer left to reduce sum
             end--;
