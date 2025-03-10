@@ -28,6 +28,7 @@ int main() {
 
             if (sum == target) {  // If we found a triplet
                 cout << "Triplet found: [" << arr[i] << ", " << arr[start] << ", " << arr[end] << "]" << endl;
+                cout << "Triplet found at Index: [" << i << ", " << start << ", " << end << "]" << endl;
                 return 0; // Exit after finding the first valid triplet
             } 
             else if (sum < target) { // If sum is less, move the start pointer forward
