@@ -1,29 +1,34 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
-    // i=row   j= column
+    // i represents rows, j represents columns
     int n, i, j;
-    cout << "Enter the number : ";
+    cout << "Enter the number of rows: ";
     cin >> n;
 
-    for (i = 1; i <= n; i++)
+    for (i = 1; i <= n; i++) // Loop for each row
     {
-        // space print
-        for (j = 1; j <= n - i; j++)
-
-            cout << " ";
-        // star print
-        for (j = 1; j <= 2 * i - 1; j++)
+        // Print spaces to align the pyramid
+        for (j = 1; j <= n - i; j++) 
         {
-
-            cout << "*";
+            cout << " "; // Adding space before stars to center-align the pattern
         }
-        cout << endl;
+
+        // Print stars in increasing order
+        for (j = 1; j <= 2 * i - 1; j++) 
+        {
+            cout << "*"; // Printing stars to form a pyramid
+        }
+
+        cout << endl; // Move to the next line after each row
     }
+
     return 0;
 }
-/* Output
+
+/* Output for n = 5
 
     *
    ***
@@ -31,4 +36,5 @@ int main()
  *******
 *********
 
-   */
+*/
+
