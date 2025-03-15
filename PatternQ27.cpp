@@ -1,29 +1,36 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
-    // i=row   j= column
+    // i = row index, j = column index
     int n, i, j;
-    cout << "Enter the number : ";
+    cout << "Enter the number of rows: ";
     cin >> n;
 
-    for (i = 1; i <= n; i++)
+    for (i = 1; i <= n; i++) // Loop for each row
     {
-        // space print
+        // Print leading spaces for right alignment
         for (j = 1; j <= n - i; j++)
+        {
+            cout << "  "; // Two spaces to maintain formatting
+        }
 
-            cout << "  ";
-        // 1 to n
+        // Print numbers from 1 to i (ascending)
         for (j = 1; j <= i; j++)
-
+        {
             cout << j << " ";
-        // n to 1
+        }
+
+        // Print numbers from (i-1) to 1 (descending)
         for (j = i - 1; j >= 1; j--)
-
+        {
             cout << j << " ";
+        }
 
-        cout << endl;
+        cout << endl; // Move to the next line after each row
     }
+
     return 0;
 }
 /* Output
