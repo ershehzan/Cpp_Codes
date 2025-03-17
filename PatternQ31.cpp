@@ -1,44 +1,58 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
-    // i=row   j= column
+    // Declare variables: n for the number of rows, i for the current row, j for the current column
     int n, i, j;
-    cout << "Enter the number : ";
+
+    // Prompt the user to enter the number of rows for the pattern
+    cout << "Enter the number of rows: ";
     cin >> n;
 
+    // First half of the pattern (upper part)
     for (i = 1; i <= n; i++)
     {
-        // space print
+        // Print leading spaces
         for (j = 1; j <= n - i; j++)
-
+        {
             cout << " ";
-        // star print
+        }
+
+        // Print stars followed by a space
         for (j = 1; j <= i; j++)
         {
-
             cout << "* ";
         }
+
+        // Move to the next line
         cout << endl;
     }
 
-    for (i = n-1; i >= 1; i--)
+    // Second half of the pattern (lower part)
+    for (i = n - 1; i >= 1; i--)
     {
-        // space print
+        // Print leading spaces
         for (j = 1; j <= n - i; j++)
-
+        {
             cout << " ";
-        // star print
+        }
+
+        // Print stars followed by a space
         for (j = 1; j <= i; j++)
         {
-
             cout << "* ";
         }
+
+        // Move to the next line
         cout << endl;
     }
+
     return 0;
 }
-/* Output
+
+/*
+Output:
 
          * 
         * *         
@@ -59,5 +73,4 @@ int main()
        * * * 
         * *  
          *   
-
-   */
+*/
