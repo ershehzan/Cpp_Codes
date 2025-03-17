@@ -1,5 +1,5 @@
-#include <iostream>  // Include the standard input-output stream library
-using namespace std; // Use the standard namespace
+#include <iostream>  
+using namespace std; 
 
 int main() {
     // i=row    j=column
@@ -18,7 +18,7 @@ int main() {
         cout << endl;  // Move to the next line after printing all columns for the current row
     }
 
-    return 0;  // Return 0 to indicate successful execution
+    return 0;  
 }
 
 /*
