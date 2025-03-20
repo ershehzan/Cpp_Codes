@@ -14,8 +14,8 @@ int main()
         {30, 31, 32, 33, 34, 35}};
 
     // Initialize boundary pointers
-    int top = 0, bot = arr.size() - 1;
-    int left = 0, right = arr[0].size() - 1;
+    int top = 0, bot = arr.size() - 1;       // 'top' and 'bot' define row boundaries
+    int left = 0, right = arr[0].size() - 1; // 'left' and 'right' define column boundaries
 
     // Loop until all elements are printed in spiral order
     while (top <= bot && left <= right)
@@ -23,19 +23,19 @@ int main()
         // Print top row from left to right
         for (int j = left; j <= right; j++)
             cout << arr[top][j] << " ";
-        top++; // Move top boundary down
+        top++; // Move top boundary down to avoid reprinting
 
         // Print right column from top to bottom
         for (int i = top; i <= bot; i++)
             cout << arr[i][right] << " ";
-        right--; // Move right boundary left
+        right--; // Move right boundary left to avoid reprinting
 
         // Print bottom row from right to left, if there are rows remaining
         if (top <= bot)
         {
             for (int j = right; j >= left; j--)
                 cout << arr[bot][j] << " ";
-            bot--; // Move bottom boundary up
+            bot--; // Move bottom boundary up to avoid reprinting
         }
 
         // Print left column from bottom to top, if there are columns remaining
@@ -43,7 +43,7 @@ int main()
         {
             for (int i = bot; i >= top; i--)
                 cout << arr[i][left] << " ";
-            left++; // Move left boundary right
+            left++; // Move left boundary right to avoid reprinting
         }
     }
 
