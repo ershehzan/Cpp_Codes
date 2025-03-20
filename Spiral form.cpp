@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
 using namespace std;
+
 int main()
 {
     vector<vector<int>> arr = {
@@ -12,24 +12,36 @@ int main()
         {24, 25, 26, 27, 28, 29},
         {30, 31, 32, 33, 34, 35}};
 
-    int top = 0, bot = 5, left = 0, right = 5;
+    int top = 0, bot = arr.size() - 1, left = 0, right = arr[0].size() - 1;
     while (top <= bot && left <= right)
     {
-        for (int j = left; j < right; j++)
+        // Print top row
+        for (int j = left; j <= right; j++)
             cout << arr[top][j] << " ";
         top++;
 
+        // Print right column
         for (int i = top; i <= bot; i++)
             cout << arr[i][right] << " ";
         right--;
 
-        for (int j = right; j >= left; j--)
-            cout << arr[bot][j] << " ";
-        bot--;
+        // Print bottom row
+        if (top <= bot)
+        { // Check to prevent duplicate row traversal
+            for (int j = right; j >= left; j--)
+                cout << arr[bot][j] << " ";
+            bot--;
+        }
 
-        for (int i = bot; i >= top; i--)
-            cout << arr[i][left] << " ";
-        left++;
+        // Print left column
+        if (left <= right)
+        { // Check to prevent duplicate column traversal
+            for (int i = bot; i >= top; i--)
+                cout << arr[i][left] << " ";
+            left++;
+        }
     }
+
+    cout << endl;
     return 0;
 }
