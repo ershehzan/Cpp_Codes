@@ -3,10 +3,10 @@
 using namespace std;
 int main()
 {
-    int num;
+    int n;
     cout << "Enter a number : ";
-    cin >> num;
-    cout<<"Sum from 1 to "<<num<<" is "<<(num*(num+1)/2);
+    cin >> n;
+    cout<<"Sum from 1 to "<<n<<" is "<<(n*(n+1)/2);
 
     return 0;
 }
