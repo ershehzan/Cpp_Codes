@@ -18,33 +18,33 @@ int main()
     int n = matrix.size();
     
     // Step 1: Rotate the matrix 180 degrees
-    // First, mirror the matrix vertically
+    // First, mirror the matrix vertically (swap elements along the vertical axis)
     for (int j = 0; j < n; j++)
     {
         int start = 0, end = n - 1;
         while (start < end)
         {
-            // Swap the elements in the column
+            // Swap the elements in the same column but different rows
             swap(matrix[start][j], matrix[end][j]);
             start++;
             end--;
         }
     }
 
-    // Then, mirror the matrix horizontally
+    // Then, mirror the matrix horizontally (swap elements along the horizontal axis)
     for (int i = 0; i < n; i++)
     {
         int start = 0, end = n - 1;
         while (start < end)
         {
-            // Swap the elements in the row
+            // Swap the elements in the same row but different columns
             swap(matrix[i][start], matrix[i][end]);
             start++;
             end--;
         }
     }
 
-    // Step 2: Transpose the matrix (swap rows with columns)
+    // Step 2: Transpose the matrix (convert rows into columns)
     for (int i = 0; i < n; i++)
     {
         for (int j = i + 1; j < n; j++)
@@ -60,18 +60,18 @@ int main()
         int start = 0, end = n - 1;
         while (start < end)
         {
-            // Swap the elements in the row
+            // Swap the elements within the same row
             swap(matrix[i][start], matrix[i][end]);
             start++;
             end--;
         }
     }
     
-    // Output the matrix after 270 degree rotation
-    cout << "Matrix after 270 degree rotation:" << endl;
-    for (int i = 0; i < 4; i++)
+    // Output the matrix after 270-degree rotation (90 degrees anticlockwise)
+    cout << "Matrix after 270-degree rotation:" << endl;
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < 4; j++)
+        for (int j = 0; j < n; j++)
         {
             cout << matrix[i][j] << " ";
         }
