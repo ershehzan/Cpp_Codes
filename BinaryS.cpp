@@ -2,9 +2,9 @@
 using namespace std;
 
 // Function to perform binary search on a sorted array
-int BinarySearch(int arr[], int target, int num)
+int BinarySearch(int arr[], int target, int n)
 {
-    int start = 0, end = num - 1, mid;
+    int start = 0, end = n - 1, mid;
     
     while (start <= end)
     {
@@ -30,15 +30,15 @@ int BinarySearch(int arr[], int target, int num)
 int main()
 {
     int arr[1000]; // Declare an array with a maximum size of 1000
-    int num;
+    int n;
     
     // Take input for array size
     cout << "Enter the number of elements in the array: ";
-    cin >> num;
+    cin >> n;
     
     // Take input for array elements
     cout << "Enter the elements of the sorted array: ";
-    for (int i = 0; i < num; i++)
+    for (int i = 0; i < n; i++)
         cin >> arr[i];
 
     int target;
@@ -48,7 +48,7 @@ int main()
     cin >> target;
 
     // Perform binary search and print the result
-    int result = BinarySearch(arr, target, num);
+    int result = BinarySearch(arr, target, n);
     if (result != -1)
         cout << result << endl;
     else
