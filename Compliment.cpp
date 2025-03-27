@@ -3,17 +3,17 @@ using namespace std;
 
 int main()
 {
-    int num, ans = 0, rem, mul = 1;
+    int n, ans = 0, rem, mul = 1;
 
     // Prompt the user to enter a number
     cout << "Enter a number: ";
-    cin >> num;
+    cin >> n;
 
     // Loop to process each bit of the number
-    while (num)
+    while (n)
     {
         // Get the remainder (last bit) when divided by 2 (binary representation)
-        rem = num % 2;
+        rem = n % 2;
 
         // Flip the bit using XOR operation (0 becomes 1, 1 becomes 0)
         rem = rem ^ 1;
@@ -25,7 +25,7 @@ int main()
         mul *= 2;
 
         // Remove the last bit by dividing the number by 2
-        num /= 2;
+        n /= 2;
     }
 
     // Output the result (bitwise complement of the original number)
