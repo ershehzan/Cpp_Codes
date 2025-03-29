@@ -1,4 +1,4 @@
-#include <iostream> // Include the standard input-output stream library
+#include <iostream> 
 #include <climits> // Include library for INT_MAX and INT_MIN constants
 using namespace std; // Use the standard namespace
 
@@ -29,5 +29,5 @@ int main()
     cout << "Max value is : ";
     cout << ans << endl; // Print the maximum value
 
-    return 0; // Return 0 to indicate successful execution
+    return 0; 
 }
