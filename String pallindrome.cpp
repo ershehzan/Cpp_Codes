@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() // Corrected function name from 'msin' to 'main'
+int main() 
 {
     string s = "naman"; // Initialize the string
 
@@ -13,7 +13,7 @@ int main() // Corrected function name from 'msin' to 'main'
         if (s[start] != s[end]) // Check if characters at start and end are not equal
         {
             cout << "Not a palindrome" << endl; // Print not a palindrome message
-            return 0;                           // Exit the program
+            return 0;  // Exit the program
         }
         start++; // Move start pointer forward
         end--;   // Move end pointer backward
@@ -21,5 +21,5 @@ int main() // Corrected function name from 'msin' to 'main'
 
     cout << "Palindrome" << endl; // Print palindrome message
 
-    return 0; // Indicate successful execution
+    return 0; 
 }
