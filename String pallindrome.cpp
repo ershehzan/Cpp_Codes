@@ -3,7 +3,7 @@ using namespace std;
 
 int main() 
 {
-    string s = "naman"; // Initialize the string
+    string s = "levi"; // Initialize the string
 
     int start = 0, end = s.size() - 1; // Set start and end pointers
 
