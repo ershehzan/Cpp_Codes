@@ -3,7 +3,7 @@ using namespace std;
 
 int main() // Corrected function name from 'msin' to 'main'
 {
-    string s = "Shan"; // Initialize the string
+    string s = "ivel"; // Initialize the string
 
     int start = 0, end = s.size() - 1; // Set start and end pointers
     
