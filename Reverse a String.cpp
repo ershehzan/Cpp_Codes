@@ -16,6 +16,12 @@ int main() // Corrected function name from 'msin' to 'main'
     }
     
     cout << s << endl; // Print the reversed string
+    int size=0;
+while(s[size] != '\0') // Calculate the size of the string
+{
+    size++; // Increment size for each character until null terminator
+}
+cout << "Size of the string: " << size << endl; // Print the size of the string
 
     return 0; 
 }
