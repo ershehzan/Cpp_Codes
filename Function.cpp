@@ -2,25 +2,25 @@
 using namespace std;
 
 // Function to check if a number is prime
-bool prime(int num)
+bool prime(int n)
 {
-    if (num <= 1)  // Numbers less than or equal to 1 are not prime
+    if (n <= 1)  // Numbers less than or equal to 1 are not prime
         return false;
-    if (num == 2)  // 2 is a prime number
+    if (n == 2)  // 2 is a prime number
         return true;
-    for (int i = 2; i <= num / 2; i++)  // Loop to check divisibility up to num/2
+    for (int i = 2; i <= n / 2; i++)  // Loop to check divisibility up to num/2
     {
-        if (num % i == 0)  // If divisible, not a prime
+        if (n % i == 0)  // If divisible, not a prime
             return false;
     }
     return true;  // If no divisors, it's prime
 }
 
 // Function to calculate factorial of a number
-int fact(int num)
+int fact(int n)
 {
     int fact = 1;  // Initialize factorial as 1
-    for (int i = 1; i <= num; i++)
+    for (int i = 1; i <= n; i++)
     {
         fact *= i;  // Multiply the current number with the result
     }
