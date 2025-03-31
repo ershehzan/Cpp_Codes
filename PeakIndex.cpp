@@ -3,10 +3,19 @@ using namespace std;
 
 int main()
 {
-    int arr[] = {2, 4, 6, 8, 10, 8, 5};
-  //  int size = sizeof(arr) / sizeof(arr[0]);
-    int start = 0,end=6;
-    // int end = size - 1;
+     int arr[1000];
+    int n;
+    cout << "Enter the size of array: ";
+    cin >> n;
+    cout << "Enter the elements of array: " << endl;
+
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+ 
+    int start = 0,end=n-1;
+
 
     while (start < end)
     {
