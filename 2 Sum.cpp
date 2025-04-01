@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std; 
-
+ 
 int main()
 {
     // Initialize an array with sorted elements (Two-pointer approach works on sorted arrays)
