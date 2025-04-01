@@ -9,8 +9,8 @@ public:
     {
         // Declare an empty string to store the modified IP address
         string ans;
-        size_t index = 0; // Using size_t (better for indexing instead of int)
-
+        //size_t index = 0; // Using size_t (better for indexing instead of int)
+int index = 0;
         // Iterate through each character in the input string
         while (index < address.size())
         {
