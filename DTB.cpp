@@ -13,7 +13,7 @@ int main()
     cin >> n;
 
     // Loop to convert decimal to binary
-    while (num > 0)
+    while (n > 0)
     {
         rem = n % 2;  // Get remainder (0 or 1)
         n /= 2;       // Divide number by 2 for the next iteration
