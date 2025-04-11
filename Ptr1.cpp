@@ -12,5 +12,11 @@ int main()
     cout << "Value of a using pointer p: " << *p << endl; // Output: 10
     cout << "Address of a using pointer p: " << p << endl; // Output: Address of a
 
+    int *p1;
+    int b=20;
+    p=&b;
+     cout << "Value of a using pointer p: " << *p1 << endl; // Output: 10
+    cout << "Address of a using pointer p: " << p1 << endl; // Output: Address of a
+
     return 0;
 }
