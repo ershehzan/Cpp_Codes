@@ -5,11 +5,11 @@ int main()
     int x, ans = 0, rem;
     cout << "Enter a number: ";
     cin >> x;
-    int n = x;
-    while (n != 0)
+    int num = x;
+    while (num != 0)
     {
 
-        rem = n % 10;
+        rem = num % 10;
         num /= 10;
         ans = ans * 10 + rem;
     }
