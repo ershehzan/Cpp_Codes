@@ -3,11 +3,11 @@ using namespace std;
 int main()
 {
 
-    int n;
+    int num;
     cout << "Enter a number :";
-    cin >> n;
+    cin >> num;
     int i = 1;     // Initialize
-    while (i <= n) // Break
+    while (i <= num) // Break
     {
 
         if (i % 2 == !0)
