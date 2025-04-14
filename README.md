@@ -1,7 +1,7 @@
 
-# C Code Collection
+# Cpp Code Collection
 
-Welcome to **C Code Collection**!  
+Welcome to **Cpp Code Collection**!  
 This repository contains a collection of C programs designed to help you understand both fundamental and advanced concepts in C programming.  
 Each program focuses on a specific topic, covering syntax, conditional statements, loops, functions, arrays, pointers, and more.
 
