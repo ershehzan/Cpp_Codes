@@ -1,20 +1,28 @@
 #include <iostream>
 using namespace std;
-int main()
+void odd(int n)
 {
 
-    int num;
-    cout << "Enter a number :";
-    cin >> num;
-    int i = 1;     // Initialize
-    while (i <= num) // Break
+    if (n == 1)
     {
 
-        if (i % 2 == !0)
-        {
-            cout << i << " ";
-        }
-        i++; // Update
+        cout << 1 << " ";
+        return;
     }
+    odd(n - 1);
+    if (n % 2 != 0)
+    {
+
+        cout << n << " ";
+    }
+}
+
+int main()
+{
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+    cout << "Odd numbers from 1 to " << n << ": ";
+    odd(n);
     return 0;
 }

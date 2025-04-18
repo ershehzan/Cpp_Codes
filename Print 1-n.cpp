@@ -1,25 +1,24 @@
+
 #include <iostream>
 using namespace std;
 
-void even(int n)
+void print(int n)
 {
-
-    if (n == 2)
+    if (n == 1)
     {
-        cout << 2 << " ";
+        cout << n << endl;
         return;
     }
-    even(n - 2);
-    cout << n << " ";
+    print(n - 1);
+    cout << n << endl;
 }
 
 int main()
 {
     int n;
-
     cout << "Enter a number: ";
     cin >> n;
-    cout<<"Even numbers from 1 to "<<n<<": ";
-    even(n);
+    print(n);
+
     return 0;
 }
