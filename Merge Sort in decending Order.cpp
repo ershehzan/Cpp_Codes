@@ -3,6 +3,7 @@
 using namespace std;
 
 // Function to merge two sorted halves of the array into a single sorted section
+// This function merges elements in descending order
 void merge(int arr[], int start, int mid, int end)
 {
     // Temporary vector to store the merged elements
@@ -16,13 +17,13 @@ void merge(int arr[], int start, int mid, int end)
     {
         if (arr[left] > arr[right])
         {
-            // If the element in the left half is smaller, add it to the temp array
+            // If the element in the left half is greater, add it to the temp array
             temp[index] = arr[left];
             index++, left++;
         }
         else
         {
-            // If the element in the right half is smaller, add it to the temp array
+            // If the element in the right half is greater, add it to the temp array
             temp[index] = arr[right];
             index++, right++;
         }
@@ -52,6 +53,7 @@ void merge(int arr[], int start, int mid, int end)
 }
 
 // Function to perform merge sort on an array
+// This function divides the array into smaller segments and sorts them recursively
 void mergesort(int arr[], int start, int end)
 {
     // Calculate the middle index
