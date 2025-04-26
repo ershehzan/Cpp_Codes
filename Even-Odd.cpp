@@ -1,7 +1,9 @@
-#include <iostream>
+#include <iostream> // Include the iostream library for input/output operations
 using namespace std;
+
 int main()
 {
+    // Declare and initialize an array with 10 elements
     int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 11};
 
     // Number of elements in the array
@@ -26,8 +28,9 @@ int main()
 
     // Print the count of even numbers
     cout << "Number of even numbers: " << even << endl;
+
     // Print the count of odd numbers
     cout << "Number of odd numbers: " << odd << endl;
 
-    return 0;
+    return 0; // Indicate that the program executed successfully
 }
