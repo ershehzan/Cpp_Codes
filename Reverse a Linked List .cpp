@@ -1,80 +1,78 @@
-#include <iostream>
-#include <vector>
+#include <iostream> // For input-output operations
+#include <vector>   // For using the vector container
 using namespace std;
 
+// Definition of the node class for the linked list
 class node
 {
-
 public:
-    int data;
-    node *next;
+    int data;    // Data stored in the node
+    node *next;  // Pointer to the next node
 
+    // Constructor to initialize the node with a value
     node(int value)
     {
-
         data = value;
-        next = NULL;
+        next = NULL; // Initialize the next pointer to NULL
     }
 };
 
 int main()
 {
+    node *head, *tail; // Pointers for the head and tail of the linked list
+    tail = head = NULL; // Initialize both to NULL
 
-    node *head, *tail;
-   tail= head = NULL;
-    
-
+    // Input array to create the linked list
     int arr[] = {20, 30, 40, 50};
 
+    // Create the linked list from the array
     for (int i = 0; i < 4; i++)
     {
-
         if (head == NULL)
         {
+            // If the list is empty, create the first node
             head = new node(arr[i]);
-            tail=head;
+            tail = head; // Tail points to the same node as head
         }
         else
         {
+            // Add a new node at the end of the list
             tail->next = new node(arr[i]);
-            tail = tail->next;
+            tail = tail->next; // Move the tail pointer to the new node
         }
     }
-    //Lc-206
-//start
-    vector<int>ans;
-        node*temp=head;
 
-        while(temp!=NULL)
-        {
-            ans.push_back(temp->data);
-            temp=temp->next;
-        }
-        int i=ans.size()-1;
-        temp=head;
+    // LC-206: Reverse the linked list by storing values in a vector
+    // Start of the reverse logic
+    vector<int> ans; // Vector to store the data of the linked list nodes
+    node *temp = head;
 
-        while(temp){
+    // Traverse the list and store data in the vector
+    while (temp != NULL)
+    {
+        ans.push_back(temp->data); // Add the data of the current node to the vector
+        temp = temp->next;         // Move to the next node
+    }
 
-            temp->data=ans[i];
-            i--;
-            temp=temp->next;
-        }
-        //end
+    int i = ans.size() - 1; // Start from the last element of the vector
+    temp = head;
 
+    // Traverse the list again and update the nodes with reversed data
+    while (temp)
+    {
+        temp->data = ans[i]; // Assign data from the vector in reverse order
+        i--;
+        temp = temp->next; // Move to the next node
+    }
+    // End of the reverse logic
 
-
-
-    node *current;
-    current = head;
+    // Print the reversed linked list
+    node *current = head;
     cout << "Reversed Linked List: ";
     while (current != NULL)
     {
-        cout << current->data << " ";
-        current = current->next;
+        cout << current->data << " "; // Print the data of the current node
+        current = current->next;      // Move to the next node
     }
-    return 0;
+    return 0; // End of the program
 }
-
-
-
-
