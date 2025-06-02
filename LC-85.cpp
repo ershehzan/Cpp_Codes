@@ -3,24 +3,31 @@
 #include <stack>
 using namespace std;
 
+// Solution class encapsulates the logic for finding the maximal rectangle of 1's in a binary matrix
 class Solution {
 public:
+    // Helper function to compute the largest rectangle in a histogram
     int largestRectangleArea(vector<int>& heights) {
         int n = heights.size();
-        stack<int> st;
+        stack<int> st;        // Stack to store indices of histogram bars
         int index;
-        int ans = 0;
+        int ans = 0;          // Variable to keep track of the maximum area found
+
+        // Iterate through all bars of the histogram
         for (int i = 0; i < n; i++) {
+            // If the current bar is lower than the bar at stack top, calculate area
             while (!st.empty() && heights[st.top()] > heights[i]) {
-                index = st.top();
+                index = st.top(); // Index of the bar to be popped
                 st.pop();
+                // If stack is not empty, calculate area using the width between current index and new top
                 if (!st.empty())
                     ans = max(ans, heights[index] * (i - st.top() - 1));
                 else
-                    ans = max(ans, heights[index] * i);
+                    ans = max(ans, heights[index] * i); // If stack is empty, width is i
             }
-            st.push(i);
+            st.push(i); // Push current bar index to stack
         }
+        // Process remaining bars in stack
         while (!st.empty()) {
             index = st.top();
             st.pop();
@@ -29,45 +36,10 @@ public:
             else
                 ans = max(ans, heights[index] * n);
         }
-        return ans;
+        return ans; // Return the maximum rectangle area found
     }
 
+    // Main function to compute maximal rectangle of 1's in a binary matrix
     int maximalRectangle(vector<vector<char>>& matrix) {
-        if (matrix.empty() || matrix[0].empty()) return 0;
-        int ans = 0;
-        int row = matrix.size();
-        int col = matrix[0].size();
-        vector<int> h(col, 0);
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < col; j++) {
-                if (matrix[i][j] == '0')
-                    h[j] = 0;
-                else
-                    h[j]++;
-            }
-            ans = max(ans, largestRectangleArea(h));
-        }
-        return ans;
-    }
-};
-
-int main() {
-    Solution solution;
-    int m, n;
-    cout << "Enter number of rows: ";
-    cin >> m;
-    cout << "Enter number of columns: ";
-    cin >> n;
-    vector<vector<char>> matrix(m, vector<char>(n));
-    cout << "Enter the matrix (each row as a string of 0s and 1s):" << endl;
-    for (int i = 0; i < m; i++) {
-        string row;
-        cin >> row;
-        for (int j = 0; j < n; j++) {
-            matrix[i][j] = row[j];
-        }
-    }
-    int result = solution.maximalRectangle(matrix);
-    cout << "Maximal rectangle area: " << result << endl;
-    return 0;
-}
+        if (matrix.empty() || matrix[0].empty()) return 0;*
+
