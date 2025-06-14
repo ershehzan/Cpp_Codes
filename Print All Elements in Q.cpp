@@ -14,6 +14,11 @@ public:
         size = n;
         front = rear = -1;
     }
+    int getSize() const {
+        // Return the current number of elements in the queue
+        if (front == -1 && rear == -1) return 0;
+        return rear - front + 1;
+    }
     bool isEmpty()
     {
         return (front == -1 && rear == -1);
@@ -23,11 +28,10 @@ public:
         return (rear == size - 1);
     }
 
-    void enqueue(int x)
+    void push(int x)
     {
         if (isEmpty())
         {
-            cout << "Inserting " << x<<" in Queue" << endl;
             front = rear = 0;
             arr[0] = x;
         }
@@ -38,12 +42,11 @@ public:
         }
         else
         {
-            cout << "Inserting " << x<<" in Queue" << endl;
             rear++;
             arr[rear] = x;
         }
     }
-    void dequeue()
+    void pop()
     {
         if (isEmpty())
         {
@@ -54,47 +57,50 @@ public:
         {
             if (front == rear)
             {
-                cout << "Removing " << arr[front] <<" from Queue" << endl;
-                cout << "Queue is now Empty" << endl;
                 front = rear = -1;
             }
             else
             {
-                cout << "Removing " << arr[front] <<" from Queue" << endl;
                 front++;
             }
         }
     }
 
-    int start(){
+    int peek(){
         if(isEmpty()){
-            cout << "Queue is Empty" << endl;
+            // cout << "Queue is Empty" << endl;
             return -1;
         }
         else{
-            cout << "Front element is: " << arr[front] << endl;
+            // cout << "Front element is: " << arr[front] << endl;
             return arr[front];
         }
     }
 };
+
 int main(){
-   
-     int n;
+    int n;
     cout << "Enter the size of the Queue: ";
     cin >> n;
     Queue q(n);
-    
-     cout << "Enter element to enqueue: ";
+
+    cout << "Enter element to enqueue: ";
     for(int i=0;i<n;i++){
         int x;
-       
         cin >> x;
-        q.enqueue(x);
+        q.push(x);
     }
 
-  cout << q.start() << endl;
+    int p = q.getSize();
+   
+    cout << "Queue Elements are:";
+    while (p--)
+    {
+        cout << q.peek() << " ";
+        q.push(q.peek()); // Re-enqueue the front element to keep it in the queue
+        q.pop();
+    }
+    cout << endl;
 
-
-
-
+    return 0;
 }
