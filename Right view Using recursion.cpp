@@ -3,65 +3,104 @@
 using namespace std;
 
 // Definition for a binary tree node.
-struct Node {
-    int data;
-    Node* left;
-    Node* right;
-    Node(int x) {
+// Each node contains an integer value and pointers to left and right children.
+struct Node
+{
+    int data;       // Value stored in the node
+    Node *left;     // Pointer to the left child node
+    Node *right;    // Pointer to the right child node
+
+    // Constructor to initialize the node with a given value
+    Node(int x)
+    {
         data = x;
         left = right = NULL;
     }
 };
 
-void rv(Node* root, int level, vector<int>& ans) {
+/*
+    Recursive helper function to compute the right view of the tree.
+
+    Parameters:
+    - root: pointer to the current node being processed
+    - level: current level in the tree (root is level 0)
+    - ans: vector to store the rightmost node at each level
+
+    Logic:
+    - If the current node is NULL, return (base case).
+    - If this is the first time visiting this level (ans.size() == level),
+      add the node's data to ans (this ensures only the rightmost node at each level is added).
+    - Recurse first on the right child, then on the left child (to ensure rightmost nodes are visited first).
+*/
+void rv(Node *root, int level, vector<int> &ans)
+{
     if (root == NULL)
         return;
-    if (level == ans.size())
+    // If visiting this level for the first time, add the node's value
+    if (level == static_cast<int>(ans.size()))
         ans.push_back(root->data);
+    // Visit right subtree first to ensure rightmost nodes are considered first
     rv(root->right, level + 1, ans);
+    // Then visit left subtree
     rv(root->left, level + 1, ans);
 }
 
-class Solution {
-  public:
-    vector<int> rightView(Node* root) {
+// Solution class encapsulates the logic for finding the right view
+class Solution
+{
+public:
+    /*
+        Function to get the right view of a binary tree.
+
+        Parameter:
+        - root: pointer to the root node of the tree
+
+        Returns:
+        - A vector containing the right view (rightmost node at each level)
+    */
+    vector<int> rightView(Node *root)
+    {
         vector<int> ans;
         if (root == NULL)
-            return ans;
-        rv(root, 0, ans);
+            return ans; // If tree is empty, return empty vector
+        rv(root, 0, ans); // Start recursion from level 0
         return ans;
     }
 };
 
-// Utility function to build a simple binary tree from user input (level order)
-Node* buildTree() {
-    int n;
-    cout << "Enter number of nodes: ";
-    cin >> n;
-    if (n == 0) return NULL;
-    vector<Node*> nodes(n, NULL);
-    cout << "Enter node values (use -1 for NULL): ";
-    for (int i = 0; i < n; ++i) {
-        int val;
-        cin >> val;
-        if (val != -1)
-            nodes[i] = new Node(val);
-    }
-    for (int i = 0, j = 1; j < n; ++i) {
-        if (nodes[i]) {
-            if (j < n) nodes[i]->left = nodes[j++];
-            if (j < n) nodes[i]->right = nodes[j++];
-        }
-    }
-    return nodes[0];
-}
+/*
+    Example main function demonstrating usage.
 
-int main() {
-    Node* root = buildTree();
-    Solution solution;
-    vector<int> result = solution.rightView(root);
-    cout << "Right view of the tree: ";
-    for (int x : result) {
-        cout << x << " ";
+    Builds the following binary tree:
+           1
+          / \
+         2   3
+          \   \
+           5   4
+
+    The right view would be: 1 3 4
+*/
+int main()
+{
+    // Create sample tree nodes
+    Node *root = new Node(1);
+    root->left = new Node(2);
+    root->right = new Node(3);
+    root->left->right = new Node(5);
+    root->right->right = new Node(4);
+
+    // Create Solution object and compute right view
+    Solution sol;
+    vector<int> result = sol.rightView(root);
+
+    cout << "Right view of the binary tree: ";
+    for (int val : result)
+    {
+        cout << val << " "; // Print each value in the right view
     }
     cout << endl;
+
+    // Memory cleanup omitted for brevity
+
+    return 0;
+}
