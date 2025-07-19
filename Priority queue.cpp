@@ -1,12 +1,12 @@
-#include<iostream>
-#include<bits/stdc++.h>
+#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 int main()
 {
-priority_queue<int>p;// max heap
-p.push(10);
-p.push(20);
-p.push(5);
+    priority_queue<int> p; // max heap
+    p.push(10);
+    p.push(20);
+    p.push(5);
     cout << "Max Heap elements: ";
     while (!p.empty())
     {
@@ -29,8 +29,4 @@ p.push(5);
     cout << endl;
 
     return 0;
-
-
-
-
 }
