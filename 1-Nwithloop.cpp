@@ -16,9 +16,9 @@ int main()
 
     // Display the final sum
     cout << "Sum from 1 to " << n << " is " << sum;
-
     return 0; // Indicate successful program termination
 }
+
 
 
 
