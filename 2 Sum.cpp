@@ -22,6 +22,7 @@ int main()
             cout << "Pair found: [" << arr[start] << "," << arr[end] << "]" << endl;
             
             cout << "Pair found at Index: [" << start << "," << end << "]" << endl;
+            
             return 0; // Exit the program as we found a valid pair
         }
         else if (sum > target)
@@ -38,6 +39,7 @@ int main()
     cout << "No pairs found." << endl;
     return 0;
 }
+
 
 
 
