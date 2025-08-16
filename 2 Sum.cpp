@@ -13,7 +13,8 @@ int main()
     int end = n - 1; // Points to the last element
 
     // Two-pointer approach to find a pair that sums up to the target value
-    while (start < end) {
+    while (start < end) 
+    {
         int sum = arr[start] + arr[end]; // Calculate the sum of elements at start and end indexes
 
         if (sum == target)
@@ -36,6 +37,7 @@ int main()
     cout << "No pairs found." << endl;
     return 0;
 }
+
 
 
 
