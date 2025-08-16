@@ -1,7 +1,6 @@
 // Sum from 1 to n using loop
 #include <iostream>
 using namespace std;
-
 int main()
 {
     int n; // Variable to store the user input
@@ -21,4 +20,5 @@ int main()
 
     return 0; // Indicate successful program termination
 }
+
 
