@@ -6,7 +6,6 @@ int main()
     int n; // Variable to store the user input
     cout << "Enter a number : "; // Prompt the user to enter a number
     cin >> n; // Read the number input from the user
-
     int sum = 0; // Initialize a variable to store the sum, starting at 0
 
     // Loop from 1 to the input number (inclusive) to calculate the sum
@@ -20,5 +19,6 @@ int main()
 
     return 0; // Indicate successful program termination
 }
+
 
 
