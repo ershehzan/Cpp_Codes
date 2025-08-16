@@ -9,7 +9,6 @@ int main()
     // Taking input for number of elements
     cout << "Enter the number of elements: ";
     cin >> n;
-
     // Taking input for array elements
     cout << "Enter the elements: ";
     for (int i = 0; i < n; i++)  // Loop correctly runs n times
@@ -42,5 +41,6 @@ int main()
     
     return 0;
 }
+
 
 
