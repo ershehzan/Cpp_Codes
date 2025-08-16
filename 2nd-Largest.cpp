@@ -6,7 +6,6 @@ int main()
     int arr[1000];  // Array to store elements
     int n;
     int ans = INT_MIN;  // Variable to store the largest element
-
     // Taking input for number of elements
     cout << "Enter the number of elements: ";
     cin >> n;
@@ -43,4 +42,5 @@ int main()
     
     return 0;
 }
+
 
