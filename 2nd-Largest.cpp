@@ -1,7 +1,6 @@
 #include <iostream>
 #include <climits>
 using namespace std;
-
 int main()
 {
     int arr[1000];  // Array to store elements
@@ -44,3 +43,4 @@ int main()
     
     return 0;
 }
+
