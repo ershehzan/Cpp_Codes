@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {  // Initialize an array with sorted elements (Two-pointer approach works on sorted arrays)
     int arr[1000] = {3, 4, 6, 8, 11, 12, 34, 41};
+    
     int n = 8; // Number of elements in the array
     int target; // Variable to store the target sum
     cout << "Enter the target: ";
@@ -39,6 +40,7 @@ int main()
     cout << "No pairs found." << endl;
     return 0;
 }
+
 
 
 
