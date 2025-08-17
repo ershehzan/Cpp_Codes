@@ -7,7 +7,6 @@ int main()
     int n;
     cout << "Enter the size of the Array: ";
     cin >> n;
-
     // Input array elements
     cout << "Enter the elements of the Array: ";
     for (int i = 0; i < n; i++)
@@ -46,5 +45,6 @@ int main()
 
     return 0;
 }
+
 
 
