@@ -54,7 +54,8 @@ void inorderTraversal(Node* root)
     inorderTraversal(root->right);     // Traverse right subtree
 }
 
-int main() {
+int main() 
+{
     // Input sorted array
     vector<int> arr = {-10, -3, 0, 5, 9};
 
@@ -71,6 +72,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
