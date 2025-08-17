@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
 // Binary Tree Node class
 class Node {
 public:
@@ -72,3 +71,4 @@ int main() {
 
     return 0;
 }
+
