@@ -42,9 +42,9 @@ int main()
     {
         cout << arr[i] << " ";
     }
-
     return 0;
 }
+
 
 
 
