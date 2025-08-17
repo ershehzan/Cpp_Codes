@@ -3,7 +3,6 @@ using namespace std;
 int main()
 {
     int arr[1000]; // Array to store elements
-
     // Input array size
     int n;
     cout << "Enter the size of the Array: ";
@@ -47,4 +46,5 @@ int main()
 
     return 0;
 }
+
 
