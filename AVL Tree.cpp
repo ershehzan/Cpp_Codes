@@ -26,7 +26,8 @@ int getheight(Node *root)
 }
 
 // Function to get the balance factor of a node
-int getbalance(Node *root) {
+int getbalance(Node *root) 
+{
     if (!root)
         return 0;
     return getheight(root->left) - getheight(root->right);
@@ -206,5 +207,6 @@ int main() {
 
     return 0;
 }
+
 
 
