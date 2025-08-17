@@ -45,7 +45,8 @@ public:
 
 // Helper function to perform inorder traversal of BST
 // Inorder traversal of BST yields sorted order of elements
-void inorderTraversal(Node* root) {
+void inorderTraversal(Node* root) 
+{
     if (!root) return;                 // Base case: null node
 
     inorderTraversal(root->left);      // Traverse left subtree
@@ -70,5 +71,6 @@ int main() {
 
     return 0;
 }
+
 
 
