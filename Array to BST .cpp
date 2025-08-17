@@ -12,7 +12,6 @@ public:
     Node(int val)
         : data(val), left(nullptr), right(nullptr) {}
 };
-
 // Solution class to build BST from sorted array
 class Solution {
 public:
@@ -71,4 +70,5 @@ int main() {
 
     return 0;
 }
+
 
