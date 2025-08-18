@@ -7,7 +7,8 @@ class Node
   public:
     int data;       // Stores the value of the node
     Node* next;     // Pointer to the next node in the list
-    Node(int val){
+    Node(int val)
+{
         data = val;
         next = NULL;
     }
@@ -135,4 +136,5 @@ int main() {
     }
     return 0;
 }
+
 
