@@ -2,7 +2,6 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-
 // Helper function to compute the LPS (Longest Prefix Suffix) array for KMP algorithm.
 // Parameters:
 // - lps: Reference to the vector storing the LPS array.
@@ -64,3 +63,4 @@ int main() {
 
     return 0; // End of program.
 }
+
