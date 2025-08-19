@@ -14,7 +14,6 @@ int main()
 
     // Resultant array to store element-wise division
     int ans[3][3];
-
     // Performing element-wise division of arr1 by arr2
     for (int i = 0; i < 3; i++)
     {
@@ -39,4 +38,5 @@ int main()
 
     return 0;
 }
+
 
