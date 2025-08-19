@@ -81,7 +81,8 @@ public:
     }
 
     // Remove an element from the back of the dequeue
-    void pop_back(){
+    void pop_back()
+{
         if(isEmpty()){
             cout << "Dequeue is Empty\n";
             return;
@@ -160,6 +161,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
