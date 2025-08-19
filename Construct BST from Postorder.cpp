@@ -47,7 +47,8 @@ void inorder(Node* root)
 }
 
 // Preorder traversal: Root → Left → Right
-void preorder(Node* root) {
+void preorder(Node* root) 
+{
     if (!root) return;
     cout << root->data << " ";
     preorder(root->left);
@@ -70,5 +71,6 @@ int main() {
 
     return 0;
 }
+
 
 
