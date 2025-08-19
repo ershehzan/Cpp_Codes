@@ -55,7 +55,8 @@ void preorder(Node* root)
     preorder(root->right);
 }
 
-int main() {
+int main()
+{
     int post[] = {1, 7, 5, 50, 40, 10};
     int size = sizeof(post) / sizeof(post[0]);
 
@@ -71,6 +72,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
