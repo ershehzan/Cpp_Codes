@@ -38,7 +38,8 @@ Node* constructTree(int post[], int size) {
 }
 
 // Inorder traversal: Left → Root → Right
-void inorder(Node* root) {
+void inorder(Node* root) 
+{
     if (!root) return;
     inorder(root->left);
     cout << root->data << " ";
@@ -69,4 +70,5 @@ int main() {
 
     return 0;
 }
+
 
