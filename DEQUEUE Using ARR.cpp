@@ -64,7 +64,8 @@ public:
     }
 
     // Remove an element from the front of the dequeue
-    void pop_front(){
+    void pop_front()
+{
         if(isEmpty()){
             cout << "Dequeue is Empty\n";
             return;
@@ -159,6 +160,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
