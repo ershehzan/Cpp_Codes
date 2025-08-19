@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 // Abstract class Animal
@@ -59,3 +58,4 @@ int main()
 
     return 0; 
 }
+
