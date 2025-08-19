@@ -70,7 +70,8 @@ public:
             cout << "Dequeue is Empty\n";
             return;
         }
-        else if(front==rear){
+        else if(front==rear)
+        {
             // If only one element was present, reset dequeue
             front=rear=-1;
         }
@@ -161,6 +162,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
