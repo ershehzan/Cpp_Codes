@@ -50,7 +50,8 @@ public:
             cout << "Dequeue is full\n";
             return;
         }
-        else if(isEmpty()){
+        else if(isEmpty())
+        {
             // If empty, insert at the first position
             front=rear=0;
             arr[0]=x;
@@ -158,5 +159,6 @@ int main(){
 
     return 0;
 }
+
 
 
