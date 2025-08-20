@@ -28,7 +28,8 @@ public:
         // Step 2: Verify if the candidate is the majority element
         // We need to confirm that the candidate appears more than n/2 times in the array
         count = 0;  // Reset count
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
+            {
             if (nums[i] == can) {  // Count the occurrences of the candidate in the array
                 count++;
             }
@@ -47,5 +48,6 @@ int main() {
 
     return 0;
 }
+
 
 
