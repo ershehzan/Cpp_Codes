@@ -55,8 +55,7 @@ class Solution {
 
 // Utility function to build a binary tree from level-order input.
 // Returns pointer to root of the tree.
-Node* buildTree()
-{
+Node* buildTree(){
     int n;
     cout << "Enter number of nodes: ";
     cin >> n;
@@ -90,6 +89,7 @@ int main() {
     cout << endl;
     return 0;
 }
+
 
 
 
