@@ -26,7 +26,8 @@ void find(Node* root, int pos, int &l)
 // Helper function to collect nodes on each diagonal.
 // pos: current diagonal index
 // ans: vector of vectors to store nodes at each diagonal
-void dig(Node* root, int pos, vector<vector<int>>& ans) {
+void dig(Node* root, int pos, vector<vector<int>>& ans) 
+{
     if (!root)
         return;
     ans[pos].push_back(root->data);     // Place node's data in its diagonal group
@@ -88,6 +89,7 @@ int main() {
     cout << endl;
     return 0;
 }
+
 
 
 
