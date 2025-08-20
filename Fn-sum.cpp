@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 // Function to calculate the sum of two integers
 int sum(int a, int b)
 {
@@ -21,3 +20,4 @@ int main()
 
     return 0; 
 }
+
