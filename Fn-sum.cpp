@@ -7,8 +7,7 @@ int sum(int a, int b)
     return result;       // Return the result
 }
 
-int main()
-{
+int main(){
     int x, y;  // Variables to store user input
 
     // Prompt the user to enter two numbers
@@ -20,4 +19,5 @@ int main()
 
     return 0; 
 }
+
 
