@@ -12,7 +12,8 @@ public:
         // Step 1: Find a candidate using Boyer-Moore Voting Algorithm
         // The idea is to maintain a count, which is incremented if the current element is the same as the candidate,
         // and decremented if different. If the count reaches zero, we choose the current element as the new candidate.
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
+            {
             if (count == 0) {  // If count is zero, choose the current element as the candidate
                 can = nums[i];
                 count = 1;
@@ -45,3 +46,4 @@ int main() {
 
     return 0;
 }
+
