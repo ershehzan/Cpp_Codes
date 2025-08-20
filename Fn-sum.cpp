@@ -2,6 +2,7 @@
 using namespace std;
 // Function to calculate the sum of two integers
 int sum(int a, int b){
+    
     int result = a + b;  // Add the two numbers
     return result;       // Return the result
 }
@@ -18,6 +19,7 @@ int main(){
 
     return 0; 
 }
+
 
 
 
