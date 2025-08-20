@@ -13,8 +13,7 @@ struct Node{
 // Helper function to determine the maximum diagonal depth in the tree.
 // pos: current diagonal index
 // l: reference to the maximum diagonal index found so far
-void find(Node* root, int pos, int &l) 
-{
+void find(Node* root, int pos, int &l) {
     if (!root)
         return;
     l = max(pos, l);                    // Update maximum diagonal if needed
@@ -88,6 +87,7 @@ int main() {
     cout << endl;
     return 0;
 }
+
 
 
 
