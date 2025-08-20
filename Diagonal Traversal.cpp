@@ -3,8 +3,7 @@
 #include <queue>
 using namespace std;
 // Definition for a binary tree node.
-struct Node
-{
+struct Node{
     int data;       // Value of the node
     Node* left;     // Pointer to the left child
     Node* right;    // Pointer to the right child
@@ -89,6 +88,7 @@ int main() {
     cout << endl;
     return 0;
 }
+
 
 
 
