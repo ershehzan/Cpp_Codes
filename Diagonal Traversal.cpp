@@ -35,7 +35,8 @@ void dig(Node* root, int pos, vector<vector<int>>& ans)
     dig(root->right, pos, ans);         // Right child is on same diagonal
 }
 
-class Solution {
+class Solution 
+{
   public:
     // Main function to return the diagonal traversal of a binary tree.
     vector<int> diagonal(Node *root) {
@@ -89,6 +90,7 @@ int main() {
     cout << endl;
     return 0;
 }
+
 
 
 
