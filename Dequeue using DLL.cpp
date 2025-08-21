@@ -1,9 +1,7 @@
 #include <iostream>
 using namespace std;
-
 // Node class for doubly linked list
-class Node
-{
+class Node{
 public:
     int data;        // Value stored in the node
     Node *next, *prev; // Pointers to the next and previous nodes
@@ -158,3 +156,4 @@ int main() {
     cout << "Deque after popping front element: ";
     dq.display();
 }
+
