@@ -2,8 +2,7 @@
 using namespace std;
 
 // A class representing a node in the linked list
-class node
-{
+class node{
 public:
     int data; // Stores the data value of the node
     node *next; // Pointer to the next node in the list
@@ -60,3 +59,4 @@ int main()
         temp = temp->next; // Move to the next node
     }
 }
+
