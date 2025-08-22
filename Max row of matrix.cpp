@@ -2,8 +2,7 @@
 #include <climits>
 using namespace std;
 
-int main()
-{
+int main(){
     // Initialize a 3x3 matrix with given values
     int arr[3][3] = {11, 23, 33,
                      41, 55, 61,
@@ -34,3 +33,4 @@ int main()
 
     return 0;
 }
+
