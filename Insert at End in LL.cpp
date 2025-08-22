@@ -15,8 +15,7 @@ public:
     }
 };
 
-int main()
-{
+int main(){
     node *head, *tail; // Pointers to the head and tail of the linked list
     tail = head = NULL; // Initialize both pointers to NULL (empty list)
 
@@ -54,4 +53,5 @@ int main()
 
     return 0; // Indicate successful program completion
 }
+
 
