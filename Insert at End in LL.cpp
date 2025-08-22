@@ -23,8 +23,7 @@ int main(){
     int arr[] = {20, 30, 40, 50};
 
     // Loop through the array to insert elements into the linked list
-    for (int i = 0; i < 4; i++)
-    {
+    for (int i = 0; i < 4; i++){
         // If the list is empty, create the first node
         if (head == NULL)
         {
@@ -53,5 +52,6 @@ int main(){
 
     return 0; // Indicate successful program completion
 }
+
 
 
