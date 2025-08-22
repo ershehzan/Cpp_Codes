@@ -18,8 +18,7 @@ public:
     // - index: Current index in the array
     // - size: Total size of the array
     // - prev: Pointer to the previous node (initially NULL)
-    node *insertAtbegin(int arr[], int index, int size, node *prev)
-    {
+    node *insertAtbegin(int arr[], int index, int size, node *prev)   {
         if (index == size) // Base case: If all elements are processed, return the head of the list
             return prev;
 
@@ -57,6 +56,7 @@ int main()
         temp = temp->next; // Move to the next node
     }
 }
+
 
 
 
