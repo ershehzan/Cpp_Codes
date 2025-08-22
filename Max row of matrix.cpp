@@ -12,8 +12,7 @@ int main(){
     int sum = INT_MIN, index = -1;
 
     // Loop through each row of the matrix
-    for (int i = 0; i < 3; i++)
-    {
+    for (int i = 0; i < 3; i++) {
         int total = 0; // Variable to store the sum of the current row
 
         // Loop through each column and calculate the sum of the current row
@@ -33,4 +32,5 @@ int main(){
 
     return 0;
 }
+
 
