@@ -12,11 +12,9 @@ int main() {
 
     // Input augmented matrix
     cout << "\nEnter the augmented matrix (coefficients and constants):\n";
-    for (int i = 0; i < n; ++i)
-        {
+    for (int i = 0; i < n; ++i)    {
         cout << "Row " << i + 1 << ": ";
-        for (int j = 0; j <= n; ++j)
-            {
+        for (int j = 0; j <= n; ++j)  {
             cin >> a[i][j];
         }
     }
