@@ -33,8 +33,7 @@ public:
     }
 };
 
-int main()
-{
+int main(){
     node *head; // Pointer to the head of the linked list
     head = NULL; // Initialize the head to NULL (empty list)
 
@@ -56,6 +55,7 @@ int main()
         temp = temp->next; // Move to the next node
     }
 }
+
 
 
 
