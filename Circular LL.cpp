@@ -28,11 +28,13 @@ int main() {
         int val;
         cin >> val; // Read value for the current node
 
-        if (head == NULL) {
+        if (head == NULL) 
+        {
             // If the list is empty, create the first node
             head = new node(val);
             tail = head;
-        } else {
+        } else 
+        {
             // For subsequent nodes, create a new node and link it to the list
             node* temp = new node(val);
             tail->next = temp;
