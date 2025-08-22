@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 // A class representing a node in the linked list
 class node{
 public:
@@ -59,4 +58,5 @@ int main()
         temp = temp->next; // Move to the next node
     }
 }
+
 
