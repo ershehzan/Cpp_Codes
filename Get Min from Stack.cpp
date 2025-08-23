@@ -9,8 +9,7 @@ class Solution {
     Solution() {}
 
     // Pushes an element onto the stack
-    void push(int x) 
-{
+    void push(int x) {
         if (s1.empty()) {
             // If stack is empty, encode the value and itself as the min (x*101 + x)
             // Here, 101 is used as a multiplier to separate value and min in encoding
@@ -72,6 +71,7 @@ int main() {
     }
     return 0;
 }
+
 
 
 
