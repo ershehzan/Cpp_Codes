@@ -5,8 +5,8 @@ using namespace std;
 // Iterative version of heapify to maintain the max-heap property
 void heapify(vector<int> &arr, int i, int n){
     
-    while (i < n){
-        
+    while (i < n)
+    {
         int largest = i;           // Assume current index is largest
         int left = 2 * i + 1;      // Index of left child
         int right = 2 * i + 2;     // Index of right child
@@ -83,6 +83,7 @@ int main()
 
     return 0;
 }
+
 
 
 
