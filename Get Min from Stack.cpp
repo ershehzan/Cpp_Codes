@@ -52,6 +52,7 @@ int main() {
     cout << "Enter number of operations: ";
     cin >> q;
     cout << "Operations:\n1 x (push x)\n2 (pop)\n3 (peek)\n4 (getMin)\n";
+  
     while (q--) {
         int op;
         cin >> op;
@@ -71,6 +72,7 @@ int main() {
     }
     return 0;
 }
+
 
 
 
