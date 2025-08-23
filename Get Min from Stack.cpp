@@ -23,7 +23,8 @@ class Solution {
     }
 
     // Removes the top element of the stack
-    void pop() {
+    void pop() 
+{
         if (s1.empty())
             return; // Do nothing if stack is empty
         s1.pop();
@@ -71,6 +72,7 @@ int main() {
     }
     return 0;
 }
+
 
 
 
