@@ -51,7 +51,6 @@ void heapsort(vector<int> &arr, int n)
     {
         // Move current root (maximum) to the end
         swap(arr[i], arr[0]);
-
         // Call heapify on the reduced heap
         heapify(arr, 0, i); // 'i' becomes the new size
     }
@@ -83,6 +82,7 @@ int main()
 
     return 0;
 }
+
 
 
 
