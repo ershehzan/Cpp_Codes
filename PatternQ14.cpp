@@ -1,8 +1,7 @@
 #include <iostream> // Include the standard input-output stream library
 using namespace std; // Use the standard namespace
 
-int main()
-{
+int main(){
     int i, j, n; // Declare integer variables for loops and user input
     cout << "Enter the number : "; // Prompt the user to enter a number
     cin >> n; // Take input from the user and store it in variable n
@@ -30,3 +29,4 @@ Enter the number : 5
 * * 
 *     
 */
+
