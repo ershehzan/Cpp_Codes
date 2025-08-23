@@ -1,7 +1,6 @@
 #include <iostream>
 #include <stack>
 using namespace std;
-
 // Solution class to implement a stack with getMin in O(1) time
 class Solution {
                 stack<int> s1; // Main stack to store values and minimums in encoded form
@@ -72,4 +71,5 @@ int main() {
     }
     return 0;
 }
+
 
