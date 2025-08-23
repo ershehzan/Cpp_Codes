@@ -56,6 +56,7 @@ int main() {
     while (q--) {
         int op;
         cin >> op;
+      
         if (op == 1) {
             int x;
             cin >> x;
@@ -72,6 +73,7 @@ int main() {
     }
     return 0;
 }
+
 
 
 
