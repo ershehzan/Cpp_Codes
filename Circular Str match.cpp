@@ -17,7 +17,8 @@ void lpsfind(vector<int>& lps, string txt)
             suffix++;
         } else
         {
-            if (prefix == 0) {
+            if (prefix == 0) 
+            {
                 lps[suffix] = 0; // No prefix match, set LPS to 0.
                 suffix++;
             } else {
@@ -66,6 +67,7 @@ int main() {
 
     return 0; // End of program.
 }
+
 
 
 
