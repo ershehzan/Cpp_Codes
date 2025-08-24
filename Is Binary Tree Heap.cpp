@@ -50,7 +50,8 @@ class Solution {
         }
 
         // Check right child
-        if (root->right) {
+        if (root->right) 
+        {
             // If parent is smaller than right child => not heap
             if (root->data < root->right->data)
                 return false;
@@ -94,4 +95,5 @@ int main() {
 
     return 0;
 }
+
 
