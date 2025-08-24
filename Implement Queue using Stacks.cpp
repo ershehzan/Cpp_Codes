@@ -1,7 +1,6 @@
 #include <iostream>
 #include <stack>
 using namespace std;
-
 // Class to implement a queue using two stacks
 class MyQueue {
     stack<int> st1; // Stack for enqueue operations
@@ -82,3 +81,4 @@ int main() {
 
     return 0;
 }
+
