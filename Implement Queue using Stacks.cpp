@@ -17,7 +17,8 @@ public:
     }
 
     // Add an element to the end of the queue
-    void push(int x) {
+    void push(int x)
+    {
         // Always push the new element onto st1
         st1.push(x);
     }
@@ -81,4 +82,5 @@ int main() {
 
     return 0;
 }
+
 
