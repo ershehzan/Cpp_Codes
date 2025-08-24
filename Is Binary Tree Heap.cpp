@@ -63,7 +63,8 @@ class Solution {
     }
 
     // Wrapper function to check if tree is a valid max heap
-    bool isHeap(Node* tree) {
+    bool isHeap(Node* tree) 
+    {
         int num = count(tree);             // Step 1: Count total nodes
         if (!CBT(tree, 0, num)) return false; // Step 2: Check complete binary tree property
         return maxheap(tree);                // Step 3: Check max-heap property
@@ -95,5 +96,6 @@ int main() {
 
     return 0;
 }
+
 
 
