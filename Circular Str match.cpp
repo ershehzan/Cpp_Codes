@@ -54,7 +54,8 @@ int main() {
     }
 
     // Check if the entire pattern was matched.
-    if (second == pattern.size()) {
+    if (second == pattern.size()) 
+    {
         cout << "Matching"; // Pattern found in the circular string.
     } else {
         cout << "Not Matching"; // Pattern not found.
@@ -62,6 +63,7 @@ int main() {
 
     return 0; // End of program.
 }
+
 
 
 
