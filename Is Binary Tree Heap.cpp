@@ -37,7 +37,8 @@ class Solution {
     }
 
     // Checks if the binary tree satisfies the max-heap property
-    bool maxheap(Node* root) {
+    bool maxheap(Node* root)
+     {
         // Check left child
         if (root->left) {
             // If parent is smaller than left child => not heap
@@ -93,3 +94,4 @@ int main() {
 
     return 0;
 }
+
