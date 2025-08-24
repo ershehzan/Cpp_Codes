@@ -45,7 +45,8 @@ public:
     }
 
     // Return the element at the front of the queue without removing it
-    int peek() {
+    int peek()
+    {
         // If the queue is empty, return 0 (could throw an exception in practice)
         if (empty())
             return 0;
@@ -83,6 +84,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
