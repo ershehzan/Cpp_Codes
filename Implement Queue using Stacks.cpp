@@ -11,7 +11,8 @@ public:
     MyQueue() {}
 
     // Check if the queue is empty
-    bool empty() {
+    bool empty()
+    {
         // The queue is empty only if both stacks are empty
         return st1.empty() && st2.empty();
     }
@@ -82,5 +83,6 @@ int main() {
 
     return 0;
 }
+
 
 
