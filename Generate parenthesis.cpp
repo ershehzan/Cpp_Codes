@@ -11,7 +11,8 @@ public:
     // r: Current count of ')' used
     // ans: Vector to store all valid combinations
     // temp: Current string being built
-    void parenthesis(int n, int l, int r, vector<string>& ans, string& temp) {
+    void parenthesis(int n, int l, int r, vector<string>& ans, string& temp) 
+       {
         // Base case: If the total length of the current string equals 2 * n,
         // it means a valid combination is formed
         if (l + r == 2 * n)
@@ -66,6 +67,7 @@ int main() {
 
     return 0; // Exit the program
 }
+
 
 
 
