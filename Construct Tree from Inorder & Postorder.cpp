@@ -103,8 +103,7 @@ void printLevelOrder(Node *root){
     }
 }
 
-int main()
-{
+int main(){
     // Example inorder and preorder traversals for demonstration
     vector<int> inorder = {4, 2, 5, 1, 6, 3};
     vector<int> preorder = {1, 2, 4, 5, 3, 6};
@@ -124,6 +123,7 @@ int main()
 
     return 0;
 }
+
 
 
 
