@@ -4,8 +4,7 @@
 using namespace std;
 
 // Definition of the Node class representing nodes of the binary tree
-class Node
-{
+class Node{
 public:
     int data;      // Value of the node
     Node *left;    // Pointer to left child
@@ -129,3 +128,4 @@ int main()
 
     return 0;
 }
+
