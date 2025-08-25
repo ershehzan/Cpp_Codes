@@ -21,8 +21,7 @@ public:
 
 // Utility function to search for a value in a vector within a specific range
 // Returns the index of the key if found, otherwise -1
-int search(vector<int> &arr, int key, int start, int end)
-{
+int search(vector<int> &arr, int key, int start, int end){
     for (int i = start; i <= end; i++)
     {
         if (arr[i] == key)
@@ -128,4 +127,5 @@ int main()
 
     return 0;
 }
+
 
