@@ -72,8 +72,7 @@ public:
 };
 
 // Helper function to print the inorder traversal of the binary tree
-void printInorder(Node *root)
-{
+void printInorder(Node *root){
     if (!root)
         return;
     printInorder(root->left);           // Print left subtree
@@ -126,6 +125,7 @@ int main()
 
     return 0;
 }
+
 
 
 
