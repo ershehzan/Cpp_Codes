@@ -30,8 +30,7 @@ int search(vector<int> &arr, int key, int start, int end){
     return -1;
 }
 
-class Solution
-{
+class Solution{
 public:
     // Recursive function to construct the binary tree
     // in: inorder traversal vector
@@ -127,5 +126,6 @@ int main()
 
     return 0;
 }
+
 
 
