@@ -14,7 +14,8 @@ public:
     void parenthesis(int n, int l, int r, vector<string>& ans, string& temp) {
         // Base case: If the total length of the current string equals 2 * n,
         // it means a valid combination is formed
-        if (l + r == 2 * n) {
+        if (l + r == 2 * n)
+        {
             ans.push_back(temp); // Add the valid combination to the result
             return;
         }
@@ -64,4 +65,5 @@ int main() {
 
     return 0; // Exit the program
 }
+
 
