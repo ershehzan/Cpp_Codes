@@ -38,7 +38,8 @@ public:
 
     // Main function to generate all combinations of valid parentheses
     // n: Total number of pairs of parentheses
-    vector<string> generateParenthesis(int n) {
+    vector<string> generateParenthesis(int n) 
+    {
         vector<string> ans; // Vector to store the result
         string temp; // Temporary string to build combinations
         parenthesis(n, 0, 0, ans, temp); // Start the recursive generation
@@ -65,5 +66,6 @@ int main() {
 
     return 0; // Exit the program
 }
+
 
 
