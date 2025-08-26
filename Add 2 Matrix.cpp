@@ -15,8 +15,7 @@ int main(){
     int ans[3][3];
 
     // Performing element-wise addition of arr1 and arr2
-    for (int i = 0; i < 3; i++) // Loop through rows
-    {
+    for (int i = 0; i < 3; i++){
         for (int j = 0; j < 3; j++) // Loop through columns
         {
             ans[i][j] = arr1[i][j] + arr2[i][j]; // Add corresponding elements
@@ -36,5 +35,6 @@ int main(){
 
     return 0;
 }
+
 
 
