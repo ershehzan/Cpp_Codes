@@ -47,7 +47,8 @@ class Solution {
 
             if (head == NULL) {
                 head = tail = newNode;                      // Initialize result list
-            } else {
+            } 
+            else {
                 tail->next = newNode;                       // Append to result list
                 tail = tail->next;
             }
@@ -134,6 +135,7 @@ int main() {
     }
     return 0;
 }
+
 
 
 
