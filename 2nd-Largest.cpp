@@ -1,8 +1,7 @@
 #include <iostream>
 #include <climits>
 using namespace std;
-int main()
-{
+int main(){
     int arr[1000];  // Array to store elements
     int n;
     int ans = INT_MIN;  // Variable to store the largest element
@@ -41,6 +40,7 @@ int main()
     
     return 0;
 }
+
 
 
 
