@@ -11,7 +11,6 @@ public:
         
         for (int right = 0; right < nums.size(); ++right) {
             sum += nums[right];
-            
             // Shrink from the left if the score is too big
             while (sum * (right - left + 1) >= k && left <= right) {
                 sum -= nums[left];
@@ -36,5 +35,6 @@ int main(){
     
     return 0;
 }
+
 
 
