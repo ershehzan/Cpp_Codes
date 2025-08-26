@@ -2,8 +2,7 @@
 using namespace std;
 
 // Node definition for singly linked list
-class Node 
-{
+class Node {
   public:
     int data;       // Stores the value of the node
     Node* next;     // Pointer to the next node in the list
@@ -136,5 +135,6 @@ int main() {
     }
     return 0;
 }
+
 
 
