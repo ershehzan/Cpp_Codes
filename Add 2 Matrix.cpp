@@ -21,7 +21,6 @@ int main(){
             ans[i][j] = arr1[i][j] + arr2[i][j]; // Add corresponding elements
         }
     }
-
     // Printing the resulting array
     cout << "Sum of the two 2D arrays:\n";
     for (int i = 0; i < 3; i++) // Loop through rows
@@ -35,6 +34,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
