@@ -39,8 +39,8 @@ int main() {
             }
         }
     }
-
     // If no triplet is found
     cout << "No triplet found." << endl;
     return 0;
 }
+
