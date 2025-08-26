@@ -26,8 +26,7 @@ public:
     }
 };
 
-int main() 
-{
+int main(){
     Solution sol;
     vector<int> nums = {1, 2, 3, 4}; // Example input array
     long long k = 20; // Example threshold
@@ -37,4 +36,5 @@ int main()
     
     return 0;
 }
+
 
