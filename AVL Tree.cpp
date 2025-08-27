@@ -49,8 +49,7 @@ Node *rightrotation(Node *root){
 }
 
 // Left Rotation (for Right-Right case)
-Node *leftrotation(Node *root) 
-{
+Node *leftrotation(Node *root) {
     Node *child = root->right;
     Node *childleft = child->left;
 
@@ -207,6 +206,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
