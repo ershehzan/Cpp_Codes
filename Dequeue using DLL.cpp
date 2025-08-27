@@ -13,8 +13,7 @@ public:
 };
 
 // Deque class using a doubly linked list
-class Deque
-{
+class Deque{
     Node *front, *rear; // Pointers to the front and rear of the deque
 
 public:
@@ -156,4 +155,5 @@ int main() {
     cout << "Deque after popping front element: ";
     dq.display();
 }
+
 
