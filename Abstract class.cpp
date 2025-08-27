@@ -39,8 +39,7 @@ public:
     }
 };
 
-int main()
-{
+int main(){
     // Creating objects of derived classes
     Dog dog;
     Cat cat;
@@ -54,6 +53,7 @@ int main()
 
     return 0; 
 }
+
 
 
 
