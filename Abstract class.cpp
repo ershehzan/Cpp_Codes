@@ -11,8 +11,7 @@ public:
 
 // Derived class Dog
 // Inherits from Animal and provides a concrete implementation of makeSound().
-class Dog : public Animal
-{
+class Dog : public Animal{
 public:
     void makeSound() const override // Overrides the pure virtual function from Animal
     {
@@ -57,5 +56,6 @@ int main()
 
     return 0; 
 }
+
 
 
