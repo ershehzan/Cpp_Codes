@@ -110,8 +110,7 @@ Node *insert(Node *root, int key) {
 }
 
 // Recursive function to delete a node in the AVL tree
-Node *deleteNode(Node *root, int key) 
-{
+Node *deleteNode(Node *root, int key){
     if (!root)
         return NULL;
 
@@ -206,6 +205,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
