@@ -3,8 +3,7 @@ using namespace std;
 
 // Abstract class Animal
 // This serves as a base class for all animals and enforces that all derived classes implement makeSound().
-class Animal
-{
+class Animal{
 public:
     virtual void makeSound() const = 0; // Pure virtual function, making this class abstract.
     virtual ~Animal() = default;        // Virtual destructor to allow proper cleanup of derived class objects.
@@ -58,4 +57,5 @@ int main()
 
     return 0; 
 }
+
 
