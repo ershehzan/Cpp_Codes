@@ -27,8 +27,7 @@ public:
             cout << "Queue is Full" << endl;
             return;
         }
-        else if (isEmpty())
-        {
+        else if (isEmpty()){
             front = rear = 0;
             arr[rear] = x;
         }
@@ -89,6 +88,7 @@ int main()
 
     return 0;
 }
+
 
 
 
