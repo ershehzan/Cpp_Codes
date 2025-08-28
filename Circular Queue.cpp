@@ -21,8 +21,7 @@ public:
         return ((rear + 1) % size == front);
     }
 
-    void enqueue(int x)
-    {
+    void enqueue(int x){
         if (isFull())
         {
             cout << "Queue is Full" << endl;
@@ -90,6 +89,7 @@ int main()
 
     return 0;
 }
+
 
 
 
