@@ -13,8 +13,7 @@ public:
         front = rear = -1;
     }
 
-    bool isEmpty()
-    {
+    bool isEmpty(){
         return (front == -1);
     }
 
@@ -92,5 +91,6 @@ int main()
 
     return 0;
 }
+
 
 
