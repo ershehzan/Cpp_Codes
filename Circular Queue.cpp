@@ -39,8 +39,7 @@ public:
         cout << "Inserting " << x << " in Queue" << endl;
     }
 
-    void dequeue()
-    {
+    void dequeue(){
         if (isEmpty())
         {
             cout << "Queue is Empty" << endl;
@@ -88,6 +87,7 @@ int main()
 
     return 0;
 }
+
 
 
 
