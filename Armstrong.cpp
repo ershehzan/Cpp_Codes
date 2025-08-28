@@ -14,8 +14,7 @@ int countdigit(int n){
 }
 
 // Function to check whether a number is an Armstrong number
-bool armstrong(int n, int digit)
-{
+bool armstrong(int n, int digit){
     int temp = n, ans = 0, rem;
     
     // Loop to extract digits and compute the Armstrong sum
@@ -48,4 +47,5 @@ int main()
 
     return 0; // Exit successfully
 }
+
 
