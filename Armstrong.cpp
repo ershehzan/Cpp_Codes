@@ -28,8 +28,7 @@ bool armstrong(int n, int digit){
     return ans == n; // Return true if Armstrong condition is met, else false
 }
 
-int main()
-{
+int main(){
     int n;
     
     // User input
@@ -47,5 +46,6 @@ int main()
 
     return 0; // Exit successfully
 }
+
 
 
