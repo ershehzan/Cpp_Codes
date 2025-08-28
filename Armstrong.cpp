@@ -3,8 +3,7 @@
 using namespace std;
 
 // Function to count the number of digits in a given number
-int countdigit(int n)
-{
+int countdigit(int n){
     int count = 0;
     while (n) // Loop runs until n becomes 0
     {
@@ -49,3 +48,4 @@ int main()
 
     return 0; // Exit successfully
 }
+
