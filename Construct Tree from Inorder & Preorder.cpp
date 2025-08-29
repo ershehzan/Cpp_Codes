@@ -26,8 +26,7 @@ int search(vector<int> &arr, int target, int s, int e){
     return -1;
 }
 
-class Solution
-{
+class Solution{
 public:
     // Recursively builds a binary tree from inorder and postorder traversal arrays
     // inorder: vector representing inorder traversal
@@ -119,5 +118,6 @@ int main()
 
     return 0;
 }
+
 
 
