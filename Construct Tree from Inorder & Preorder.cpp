@@ -33,8 +33,7 @@ public:
     // postorder: vector representing postorder traversal
     // start, end: current segment of inorder array to consider
     // index: current root index in postorder array (from the end towards start)
-    Node *tree(vector<int> &inorder, vector<int> &postorder, int start, int end, int index)
-    {
+    Node *tree(vector<int> &inorder, vector<int> &postorder, int start, int end, int index){
         // Base case: if the start index exceeds end, subtree is empty
         if (start > end)
         {
@@ -117,6 +116,7 @@ int main()
 
     return 0;
 }
+
 
 
 
