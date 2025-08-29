@@ -2,8 +2,7 @@
 #include <vector>
 using namespace std;
 
-int main()
-{
+int main(){
     // Initialize a 4x4 matrix with values from 1 to 16
     vector<vector<int>> matrix = {
         {1, 2, 3, 4},
@@ -51,3 +50,4 @@ int main()
 
     return 0;
 }
+
