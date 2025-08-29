@@ -17,8 +17,7 @@ struct Node{
 
 // Searches for the index of 'target' in 'arr' between indices s and e (inclusive)
 // Returns the index if found, otherwise returns -1
-int search(vector<int> &arr, int target, int s, int e)
-{
+int search(vector<int> &arr, int target, int s, int e){
     for (int i = s; i <= e; i++)
     {
         if (arr[i] == target)
@@ -120,4 +119,5 @@ int main()
 
     return 0;
 }
+
 
