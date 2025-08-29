@@ -4,8 +4,7 @@
 using namespace std;
 
 // Tree node structure
-struct Node
-{
+struct Node{
     int data;       // Stores the value of the node
     Node *left;     // Pointer to the left child node
     Node *right;    // Pointer to the right child node
@@ -121,3 +120,4 @@ int main()
 
     return 0;
 }
+
