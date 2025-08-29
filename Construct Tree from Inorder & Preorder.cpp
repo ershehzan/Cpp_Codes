@@ -60,8 +60,7 @@ public:
 
     // Builds the binary tree given inorder and postorder traversal vectors
     // Returns the root node of the constructed tree
-    Node *buildTree(vector<int> inorder, vector<int> postorder)
-    {
+    Node *buildTree(vector<int> inorder, vector<int> postorder){
         int idx = postorder.size() - 1; // Start from the last element in postorder
         return tree(inorder, postorder, 0, inorder.size() - 1, idx);
     }
@@ -118,6 +117,7 @@ int main()
 
     return 0;
 }
+
 
 
 
