@@ -21,7 +21,6 @@ int main(){
             swap(matrix[i][j], matrix[j][i]);
         }
     }
-
     // Reverse each column to achieve a 90-degree anticlockwise rotation
     for (int j = 0; j < n; j++)
     {
@@ -48,6 +47,7 @@ int main(){
     }
     return 0;
 }
+
 
 
 
