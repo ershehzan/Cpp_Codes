@@ -2,8 +2,7 @@
 using namespace std;
 
 // Class representing a Dequeue (Double Ended Queue) using a circular array
-class dequeue
-{
+class dequeue{
     int front, rear;   // Indices for front and rear of the dequeue
     int *arr;          // Pointer to the array holding elements
     int size;          // Maximum size of the dequeue
@@ -162,6 +161,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
