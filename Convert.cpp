@@ -10,8 +10,7 @@ char convert(char name)
     return ans;
 }
 
-int main()
-{
+int main(){
     char name;
     cout << "Enter a character  : ";
     cin >> name;
@@ -20,3 +19,4 @@ int main()
     return 0;
 
 }
+
