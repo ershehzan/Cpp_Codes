@@ -1,8 +1,7 @@
 // Sum from 1 to n using loop
 #include <iostream>
 using namespace std;
-int main()
-{
+int main(){
     int n; // Variable to store the user input
     cout << "Enter a number : "; // Prompt the user to enter a number
     cin >> n; // Read the number input from the user
@@ -16,6 +15,7 @@ int main()
     cout << "Sum from 1 to " << n << " is " << sum;
     return 0; // Indicate successful program termination
 }
+
 
 
 
