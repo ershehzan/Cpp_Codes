@@ -46,10 +46,8 @@ int main(){
         head = head->next;
         delete temp;
     }
-    else
-    {
-
-        x--;
+    else{
+          x--;
         node *current = head;
         node *prev = NULL;
 
@@ -69,6 +67,7 @@ int main(){
     }
 
 }
+
 
 
 
