@@ -8,8 +8,7 @@ class dequeue{
     int size;          // Maximum size of the dequeue
 public:
     // Constructor to initialize the dequeue with given size
-    dequeue(int n)
-{
+    dequeue(int n){
         size=n;
         arr=new int[size];  // Dynamically allocate array
         front = rear = -1;  // Initialize front and rear as empty
@@ -161,6 +160,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
