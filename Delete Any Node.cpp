@@ -24,8 +24,7 @@ int main(){
         cin >> arr[i];
     }
 
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++){
         if (head == NULL)
         {
             head = new node(arr[i]);
@@ -70,6 +69,7 @@ int main(){
     }
 
 }
+
 
 
 
