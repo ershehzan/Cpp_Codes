@@ -18,8 +18,7 @@ int GCD(int a, int b){
     return GCD(b, a % b);
 }
 
-int main()
-{
+int main(){
     // Declare two integer variables to store user input
     int a, b;
     
@@ -30,5 +29,6 @@ int main()
     // Output the GCD of the two numbers by calling the GCD function
     cout << "GCD of " << a << " and " << b << " is: " << GCD(a, b) << endl;
 }
+
 
 
