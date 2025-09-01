@@ -1,7 +1,6 @@
 // Include the iostream library for handling input and output operations
 #include <iostream>
 using namespace std;
-
 // Function to calculate the Greatest Common Divisor (GCD) of two integers using recursion
 // Parameters:
 // - `a`: First integer
@@ -32,3 +31,4 @@ int main()
     // Output the GCD of the two numbers by calling the GCD function
     cout << "GCD of " << a << " and " << b << " is: " << GCD(a, b) << endl;
 }
+
