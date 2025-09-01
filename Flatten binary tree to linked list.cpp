@@ -13,8 +13,7 @@ struct Node{
 class Solution{
 public:
     // Function to flatten the binary tree into a linked list in-place
-    void flatten(Node *root)
-    {
+    void flatten(Node *root){
         // Traverse the tree starting from the root
         while (root)
         {
@@ -78,5 +77,6 @@ int main()
 
     return 0;
 }
+
 
 
