@@ -7,8 +7,7 @@ using namespace std;
 // - `b`: Second integer
 // If b equals 0, the GCD is a (base case).
 // Otherwise, the function recursively calls itself with `b` and the remainder of `a % b`.
-int GCD(int a, int b)
-{
+int GCD(int a, int b){
     // Base case: if the second number (b) is 0, return the first number (a) as the GCD
     if (b == 0)
     {
@@ -31,4 +30,5 @@ int main()
     // Output the GCD of the two numbers by calling the GCD function
     cout << "GCD of " << a << " and " << b << " is: " << GCD(a, b) << endl;
 }
+
 
