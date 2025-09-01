@@ -48,7 +48,8 @@ int main() {
     Node* fast = head; // Moves two steps at a time
     
     // Floyd's Cycle Detection Algorithm (Tortoise and Hare)
-    while (fast != NULL && fast->next != NULL) {
+    while (fast != NULL && fast->next != NULL) 
+    {
         slow = slow->next;           // Move slow pointer by one
         fast = fast->next->next;     // Move fast pointer by two
         
