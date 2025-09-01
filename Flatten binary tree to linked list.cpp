@@ -48,8 +48,7 @@ void printRightLinkedList(Node *root){
     cout << endl;
 }
 
-int main()
-{
+int main(){
     /* Example: Constructing the following binary tree
           1
          / \
@@ -76,6 +75,7 @@ int main()
 
     return 0;
 }
+
 
 
 
