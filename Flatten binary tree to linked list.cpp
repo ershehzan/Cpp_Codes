@@ -39,8 +39,7 @@ public:
 };
 
 // Helper function to print the flattened tree as a right-skewed linked list
-void printRightLinkedList(Node *root)
-{
+void printRightLinkedList(Node *root){
     while (root)
     {
         cout << root->data << " "; // Print current node's data
@@ -77,6 +76,7 @@ int main()
 
     return 0;
 }
+
 
 
 
