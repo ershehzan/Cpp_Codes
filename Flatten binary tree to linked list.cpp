@@ -10,8 +10,7 @@ struct Node{
 };
 
 // Solution class containing the flatten method
-class Solution
-{
+class Solution{
 public:
     // Function to flatten the binary tree into a linked list in-place
     void flatten(Node *root)
@@ -79,4 +78,5 @@ int main()
 
     return 0;
 }
+
 
