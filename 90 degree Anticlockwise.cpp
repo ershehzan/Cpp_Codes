@@ -25,7 +25,6 @@ int main(){
     for (int j = 0; j < n; j++)
     {
         int start = 0, end = n - 1;
-        
         // Swap elements from top to bottom in each column
         while (start < end)
         {
@@ -47,6 +46,7 @@ int main(){
     }
     return 0;
 }
+
 
 
 
