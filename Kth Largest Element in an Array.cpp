@@ -28,9 +28,9 @@ int main() {
     int k = 2;
     int result = sol.findKthLargest(nums, k);
     cout << "The " << k << "th largest element is: " << result << endl;
-
     return 0;
 }
+
 
 
 
