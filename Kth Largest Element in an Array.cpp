@@ -18,7 +18,6 @@ public:
                 p.push(nums[i]);
             }
         }
-
         return p.top();
     }
 };
@@ -33,6 +32,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
