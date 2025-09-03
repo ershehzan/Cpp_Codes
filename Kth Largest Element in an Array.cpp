@@ -2,7 +2,6 @@
 #include <vector>
 #include <queue>
 using namespace std;
-
 // Solution class
 class Solution {
 public:
@@ -36,3 +35,4 @@ int main() {
 
     return 0;
 }
+
