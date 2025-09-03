@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std; 
 int main(){
     // First 3x3 2D array
     int arr1[3][3] = {1, 2, 3,
@@ -33,6 +33,7 @@ int main(){
     }
     return 0;
 }
+
 
 
 
