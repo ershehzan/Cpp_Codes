@@ -15,7 +15,6 @@ int main(){
 
     // Sort the array to use the two-pointer approach effectively
     sort(arr.begin(), arr.end());
-
     // Iterate through the array to fix the first two numbers
     for (int i = 0; i < n - 3; i++)
     {
@@ -49,5 +48,6 @@ int main(){
     cout << "No Quadriplet found." << endl;
     return 0;
 }
+
 
 
