@@ -12,6 +12,7 @@ struct Node {
     // Constructor to initialize a new node with a value and null children
     Node(int val) : data(val), left(nullptr), right(nullptr) {}
 };
+
 class Solution {
   public:
     // Function to perform iterative inorder traversal of a binary tree
@@ -91,5 +92,6 @@ int main() {
 
     return 0;
 }
+
 
 
