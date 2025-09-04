@@ -24,7 +24,6 @@ int main(){
             int target = x - (arr[i] + arr[j]); // Adjust target for last two numbers
             int start = j + 1;
             int end = n - 1;
-
             // Two-pointer approach for the remaining two numbers
             while (start < end)
             {
@@ -50,4 +49,5 @@ int main(){
     cout << "No Quadriplet found." << endl;
     return 0;
 }
+
 
