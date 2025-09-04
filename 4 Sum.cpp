@@ -9,7 +9,6 @@ int main(){
     int x; // Variable to store the target sum
     cout << "Enter the target sum: ";
     cin >> x;
-
     int n = arr.size(); // Get the size of the vector
 
     // Sort the array to use the two-pointer approach effectively
@@ -47,6 +46,7 @@ int main(){
     cout << "No Quadriplet found." << endl;
     return 0;
 }
+
 
 
 
