@@ -136,7 +136,6 @@ public:
 int main() {
     
     Deque dq; // Create a Deque object
-
     // Demonstrate push operations
     dq.push_front(10);
     dq.push_back(20);
@@ -155,6 +154,7 @@ int main() {
     cout << "Deque after popping front element: ";
     dq.display();
 }
+
 
 
 
