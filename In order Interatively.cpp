@@ -87,9 +87,9 @@ int main() {
         cout << val << " ";              // Output traversal result
     }
     cout << endl;
-
     // Free allocated memory if needed (not necessary for small test/demo)
     // ... (delete nodes if you want to avoid memory leaks in larger code)
 
     return 0;
 }
+
