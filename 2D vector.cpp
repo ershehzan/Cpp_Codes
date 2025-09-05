@@ -7,7 +7,6 @@ int main(){
     int n,m; 
     cout<<"Enter the number of rows and columns";
     cin>>n>>m;
-
     vector<vector<int>>matrix(n,vector<int>(m,1));
 
 // for(int i=0;i<3;i++){
@@ -33,6 +32,7 @@ for(int i=0;i<n;i++){
 cout<<endl;
 
 }
+
 
 
 
