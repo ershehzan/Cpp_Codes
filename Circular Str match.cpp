@@ -6,6 +6,7 @@ using namespace std;
 // Parameters:
 // - lps: Reference to the vector storing the LPS array.
 // - txt: The string (pattern) for which the LPS array is computed.
+
 void lpsfind(vector<int>& lps, string txt){
     
     int prefix = 0, suffix = 1; // Initialize pointers for prefix and suffix.
@@ -68,6 +69,7 @@ int main() {
 
     return 0; // End of program.
 }
+
 
 
 
