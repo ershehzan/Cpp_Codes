@@ -2,7 +2,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 // Undirected Graph using Adjacency Matrix
-
 int main(){
     int vertex, edges;
     cout << "Enter number of vertices and edges: ";
@@ -28,6 +27,7 @@ int main(){
         cout << endl;
     }
 }
+
 
 
 
