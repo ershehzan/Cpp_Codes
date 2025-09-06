@@ -10,7 +10,7 @@ int main(){
         {9, 10, 11, 12},
         {13, 14, 15, 16}
     };
-    
+ 
     int n = matrix.size(); // Determine the size of the matrix
     // Transpose the matrix
     // Transposing involves swapping matrix[i][j] with matrix[j][i]
@@ -45,6 +45,7 @@ int main(){
     }
     return 0;
 }
+
 
 
 
