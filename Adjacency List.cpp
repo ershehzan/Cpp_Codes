@@ -2,6 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 // Undirected Graph using Adjacency Matrix
+
 int main(){
     
     int vertex, edges;
@@ -28,6 +29,7 @@ int main(){
         cout << endl;
     }
 }
+
 
 
 
