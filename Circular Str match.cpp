@@ -27,6 +27,7 @@ void lpsfind(vector<int>& lps, string txt){
         }
     }
 }
+
 int main() {
     // Input strings
     string txt = "cdeabroab"; // The main string
@@ -67,6 +68,7 @@ int main() {
 
     return 0; // End of program.
 }
+
 
 
 
