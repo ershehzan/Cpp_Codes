@@ -16,7 +16,6 @@ int main()
     while (start < end) 
     {
         int sum = arr[start] + arr[end]; // Calculate the sum of elements at start and end indexes
-
         if (sum == target)
         { // If the sum matches the target
             cout << "Pair found: [" << arr[start] << "," << arr[end] << "]" << endl;
@@ -39,6 +38,7 @@ int main()
     cout << "No pairs found." << endl;
     return 0;
 }
+
 
 
 
