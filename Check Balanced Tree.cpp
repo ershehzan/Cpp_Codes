@@ -68,7 +68,7 @@ int main() {
 
         if (sol.isBalanced(root2))
                 cout << "Tree is balanced" << endl;
-        else
+        else{
                 cout << "Tree is not balanced" << endl;
 
         // Note: In a real program, you should delete the allocated nodes to avoid memory leaks.
@@ -76,3 +76,4 @@ int main() {
 
         return 0;
 }
+
