@@ -8,7 +8,6 @@ int main()
     int target; // Variable to store the target sum
     cout << "Enter the target: ";
     cin >> target;
-
     // Initialize two pointers
     int start = 0;   // Points to the first element
     int end = n - 1; // Points to the last element
@@ -40,6 +39,7 @@ int main()
     cout << "No pairs found." << endl;
     return 0;
 }
+
 
 
 
