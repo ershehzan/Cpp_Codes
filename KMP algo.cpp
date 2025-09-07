@@ -63,7 +63,6 @@ public:
             return -1; // No match found.
     }
 };
-
 int main() {
     Solution solution;
     string haystack, needle;
@@ -88,4 +87,5 @@ int main() {
 
     return 0; // End of program.
 }
+
 
