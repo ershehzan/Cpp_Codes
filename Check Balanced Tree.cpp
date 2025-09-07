@@ -71,12 +71,13 @@ int main() {
         }
         else{
                 cout << "Tree is not balanced" << endl;
-
+        }
         // Note: In a real program, you should delete the allocated nodes to avoid memory leaks.
         // For simplicity, this example omits manual deletion.
 
         return 0;
 }
+
 
 
 
