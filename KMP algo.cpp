@@ -2,7 +2,6 @@
 #include <vector>
 #include <string>
 using namespace std;
-
 // Class implementing the KMP (Knuth-Morris-Pratt) string matching algorithm.
 class Solution {
 public:
@@ -89,3 +88,4 @@ int main() {
 
     return 0; // End of program.
 }
+
