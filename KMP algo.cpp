@@ -66,7 +66,6 @@ public:
 int main() {
     Solution solution;
     string haystack, needle;
-
     // Get the haystack string from the user.
     cout << "Enter the haystack string: ";
     cin >> haystack;
@@ -87,5 +86,6 @@ int main() {
 
     return 0; // End of program.
 }
+
 
 
