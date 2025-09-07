@@ -83,9 +83,9 @@ int main() {
     } else {
         cout << "The needle is not found in the haystack." << endl;
     }
-
     return 0; // End of program.
 }
+
 
 
 
