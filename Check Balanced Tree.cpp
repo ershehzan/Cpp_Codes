@@ -66,7 +66,7 @@ int main() {
         root2->left = new Node(2);
         root2->left->left = new Node(3);
 
-        if (sol.isBalanced(root2))
+        if (sol.isBalanced(root2)){
                 cout << "Tree is balanced" << endl;
         else{
                 cout << "Tree is not balanced" << endl;
@@ -76,4 +76,5 @@ int main() {
 
         return 0;
 }
+
 
