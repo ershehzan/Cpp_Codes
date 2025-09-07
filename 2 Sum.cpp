@@ -34,11 +34,12 @@ int main()
             start++;
         }
     }
-
+   
     // If no pair is found after the loop completes
     cout << "No pairs found." << endl;
     return 0;
 }
+
 
 
 
