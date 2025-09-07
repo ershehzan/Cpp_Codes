@@ -73,7 +73,6 @@ int main() {
     // Get the needle string from the user.
     cout << "Enter the needle string: ";
     cin >> needle;
-
     // Call the function to get the result.
     int result = solution.strStr(haystack, needle);
 
@@ -85,6 +84,7 @@ int main() {
     }
     return 0; // End of program.
 }
+
 
 
 
