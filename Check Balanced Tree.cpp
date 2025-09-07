@@ -68,6 +68,7 @@ int main() {
 
         if (sol.isBalanced(root2)){
                 cout << "Tree is balanced" << endl;
+        }
         else{
                 cout << "Tree is not balanced" << endl;
 
@@ -76,5 +77,6 @@ int main() {
 
         return 0;
 }
+
 
 
