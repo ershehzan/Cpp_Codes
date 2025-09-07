@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std; 
+
 int main()
 {  // Initialize an array with sorted elements (Two-pointer approach works on sorted arrays)
     int arr[1000] = {3, 4, 6, 8, 11, 12, 34, 41};
@@ -39,6 +40,7 @@ int main()
     cout << "No pairs found." << endl;
     return 0;
 }
+
 
 
 
