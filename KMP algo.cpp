@@ -28,7 +28,6 @@ public:
             }
         }
     }
-
     // Function to find the index of the first occurrence of `needle` in `haystack` using KMP algorithm.
     // Parameters:
     // - haystack: The string in which to search.
@@ -84,6 +83,7 @@ int main() {
     }
     return 0; // End of program.
 }
+
 
 
 
