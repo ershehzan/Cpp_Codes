@@ -2,7 +2,6 @@
 #include <vector>
 #include <stack>
 using namespace std;
-
 // Definition of a tree node
 struct Node {
     int data;           // Value stored in the node
@@ -92,6 +91,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
