@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 // Definition of the doubly linked list node
 class node{
 public:
@@ -111,4 +110,5 @@ int main()
         trav = trav->next;
     }
 }
+
 
