@@ -14,8 +14,7 @@ public:
     }
 };
 
-int main()
-{
+int main(){
     node *head = NULL; // Pointer to the head (first node) of the DLL
     node *tail = NULL; // Pointer to the tail (last node) of the DLL
 
@@ -109,6 +108,7 @@ int main()
         trav = trav->next;
     }
 }
+
 
 
 
