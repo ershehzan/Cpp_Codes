@@ -36,7 +36,6 @@ int main()
             }
         }
     }
-
     // Output the array after removing duplicates
     cout << "Array after deletion of duplicate elements: ";
     for (int i = 0; i < n; i++)
@@ -45,6 +44,7 @@ int main()
     }
     return 0;
 }
+
 
 
 
