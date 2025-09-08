@@ -99,7 +99,6 @@ int main(){
             */
         }
     }
-
     // Print the list after deletion
     node *trav = head;
     cout << "Linked List after Deletion : ";
@@ -109,6 +108,7 @@ int main(){
         trav = trav->next;
     }
 }
+
 
 
 
