@@ -8,8 +8,7 @@ public:
     node *prev;     // Pointer to the previous node in the list
 
     // Constructor to initialize node with a value
-    node(int val)
-    {
+    node(int val){
         data = val;
         next = prev = NULL;
     }
@@ -110,5 +109,6 @@ int main()
         trav = trav->next;
     }
 }
+
 
 
