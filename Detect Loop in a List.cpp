@@ -12,7 +12,6 @@ public:
         next = NULL;
     }
 };
-
 int main() {
     Node* head = NULL; // Pointer to the first node of the list
     Node* tail = NULL; // Pointer to the last node of the list
