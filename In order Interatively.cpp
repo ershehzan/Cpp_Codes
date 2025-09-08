@@ -74,7 +74,6 @@ Node* createSampleTree() {
     root->left->right = new Node(5);
     return root;
 }
-
 int main() {
     Node* root = createSampleTree();     // Build a sample tree
     Solution sol;
@@ -90,6 +89,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
