@@ -33,11 +33,11 @@ int main(){
         // Update the head position to the current request
         head = arr[i];
     }
-
     // Output the total seek time calculated using the FCFS algorithm
     cout << "Total seek time (FCFS): " << SeekTime << endl;
     return 0; // Indicate that the program executed successfully
 }
+
 
 
 
