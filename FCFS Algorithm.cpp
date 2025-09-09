@@ -6,8 +6,7 @@
 #include <cmath>     // For mathematical operations like abs()
 using namespace std; // To avoid writing std:: repeatedly
 
-int main()
-{
+int main(){
     int arr[100]; // Array to hold disk requests
     int n, head;  // n: number of requests, head: initial position of the disk head
 
@@ -43,4 +42,5 @@ int main()
 
     return 0; // Indicate that the program executed successfully
 }
+
 
