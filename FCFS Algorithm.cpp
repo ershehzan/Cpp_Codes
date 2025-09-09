@@ -1,7 +1,6 @@
 // First come first serve (FCFS) disk scheduling algorithm: 
 // The FCFS disk scheduling algorithm is a simple and straightforward approach to managing disk requests.
 // It processes requests in the order they arrive without prioritization or optimization.
-
 #include <algorithm> // For generic algorithms like sorting (not used here but included)
 #include <iostream>  // For input and output operations
 #include <cmath>     // For mathematical operations like abs()
@@ -44,3 +43,4 @@ int main()
 
     return 0; // Indicate that the program executed successfully
 }
+
