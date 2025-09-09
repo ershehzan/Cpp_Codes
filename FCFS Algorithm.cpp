@@ -13,7 +13,6 @@ int main(){
     // Prompt the user to input the number of disk requests
     cout << "Enter the number of requests: ";
     cin >> n;
-
     // Prompt the user to input the disk requests
     cout << "Enter the requests: ";
     for (int i = 0; i < n; i++)
@@ -41,6 +40,7 @@ int main(){
     cout << "Total seek time (FCFS): " << SeekTime << endl;
     return 0; // Indicate that the program executed successfully
 }
+
 
 
 
