@@ -21,7 +21,6 @@ int main(){
     // Prompt the user to input the initial position of the disk head
     cout << "Enter the head position: ";
     cin >> head;
-
     int SeekTime = 0; // Variable to accumulate the total seek time
     // Process each request in the order it appears in the array
     for (int i = 0; i < n; i++)
@@ -36,6 +35,7 @@ int main(){
     cout << "Total seek time (FCFS): " << SeekTime << endl;
     return 0; // Indicate that the program executed successfully
 }
+
 
 
 
