@@ -18,7 +18,6 @@ int main(){
     {
         cin >> arr[i]; // Store each request in the array
     }
-
     // Prompt the user to input the initial position of the disk head
     cout << "Enter the head position: ";
     cin >> head;
@@ -39,6 +38,7 @@ int main(){
     cout << "Total seek time (FCFS): " << SeekTime << endl;
     return 0; // Indicate that the program executed successfully
 }
+
 
 
 
