@@ -1,7 +1,6 @@
 // Include the iostream library for input and output operations
 #include <iostream>
 using namespace std;
-
 // Function to calculate the nth Fibonacci number using recursion
 // The function takes an integer input `n`
 // If n <= 1, it returns n directly as the base case (0 or 1)
@@ -32,3 +31,4 @@ int main()
     // not the entire Fibonacci series up to n terms
     cout << "Fibonacci Series: " << fab(n) << endl;
 }
+
