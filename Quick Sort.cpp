@@ -38,8 +38,7 @@ void QuickSort(int arr[], int start, int end)
     QuickSort(arr, pivot + 1, end);
 };
 
-int main()
-{
+int main(){
     // Initialize an array to be sorted
     int arr[] = {9, 7, 5, 11, 12, 2, 14, 3};
     int n = 8; // Number of elements in the array
@@ -57,6 +56,7 @@ int main()
 
     return 0;
 }
+
 
 
 
