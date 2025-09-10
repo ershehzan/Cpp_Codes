@@ -19,7 +19,6 @@ int partition(int arr[], int start, int end){
     }
     return pos - 1; // Return the final position of the pivot
 };
-
 // Function to implement the QuickSort algorithm
 // This function sorts the array recursively
 void QuickSort(int arr[], int start, int end)
@@ -59,4 +58,5 @@ int main()
 
     return 0;
 }
+
 
