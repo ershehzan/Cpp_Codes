@@ -23,12 +23,12 @@ int main(){
     // Prompt the user to enter the number of terms
     cout << "Enter the number of terms: ";
     cin >> n;
-
     // Output the nth Fibonacci number by calling the fab function
     // Note: The current implementation only calculates the nth term,
     // not the entire Fibonacci series up to n terms
     cout << "Fibonacci Series: " << fab(n) << endl;
 }
+
 
 
 
