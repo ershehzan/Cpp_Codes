@@ -1,7 +1,6 @@
 #include <iostream>
 #include <algorithm> // To use the swap function
 using namespace std;
-
 // Function to partition the array into two segments based on the pivot
 // Elements smaller than or equal to the pivot are placed to its left
 // Elements greater than the pivot are placed to its right
@@ -58,5 +57,6 @@ int main()
 
     return 0;
 }
+
 
 
