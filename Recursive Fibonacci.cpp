@@ -15,7 +15,6 @@ int fab(int n)
     // Recursive case: return the sum of the (n-1)th and (n-2)th Fibonacci numbers
     return fab(n - 1) + fab(n - 2);
 }
-
 int main(){
     // Declare a variable to store the number of terms in the Fibonacci series
     int n;
@@ -28,6 +27,7 @@ int main(){
     // not the entire Fibonacci series up to n terms
     cout << "Fibonacci Series: " << fab(n) << endl;
 }
+
 
 
 
