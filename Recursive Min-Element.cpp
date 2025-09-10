@@ -1,6 +1,5 @@
 // Include the iostream library for handling input and output operations
 #include <iostream>
-
 // Include the climits library to use the INT_MIN and INT_MAX macros if needed
 #include <climits>
 
@@ -39,3 +38,4 @@ int main()
     // Return 0 to indicate successful program termination
     return 0;
 }
+
