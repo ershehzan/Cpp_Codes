@@ -5,8 +5,7 @@ using namespace std;
 // Function to partition the array into two segments based on the pivot
 // Elements smaller than or equal to the pivot are placed to its left
 // Elements greater than the pivot are placed to its right
-int partition(int arr[], int start, int end)
-{
+int partition(int arr[], int start, int end){
     int pos = start; // Position to place the next smaller element
 
     // Iterate through the array to rearrange elements
@@ -60,3 +59,4 @@ int main()
 
     return 0;
 }
+
