@@ -41,8 +41,7 @@ bool divide(vector<int> arr)
     return false;
 }
 
-int main()
-{
+int main(){
     int n; // Variable to store array size
 
     // Prompt user to enter the size of the array
@@ -63,3 +62,4 @@ int main()
 
     return 0; // Exit the program
 }
+
