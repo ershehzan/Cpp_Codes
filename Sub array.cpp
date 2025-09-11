@@ -35,7 +35,6 @@ bool divide(vector<int> arr)
             return true; // Return true since division is possible
         }
     }
-
     // Step 5: If loop completes and no equal split is found, return false
     cout << "The array cannot be divided into two equal sum subarrays." << endl;
     return false;
@@ -63,5 +62,6 @@ int main(){
 
     return 0; // Exit the program
 }
+
 
 
