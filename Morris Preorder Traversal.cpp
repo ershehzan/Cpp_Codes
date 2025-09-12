@@ -71,8 +71,7 @@ Node *buildSampleTree()
     return root;
 }
 
-int main()
-{
+int main(){
     Node *root = buildSampleTree();        // Build a sample tree
     Solution sol;                          // Create Solution object
     vector<int> preorder = sol.preOrder(root); // Obtain preorder traversal using Morris Traversal
@@ -87,6 +86,7 @@ int main()
     // Memory clean-up can be added here if needed for larger trees
     return 0;
 }
+
 
 
 
