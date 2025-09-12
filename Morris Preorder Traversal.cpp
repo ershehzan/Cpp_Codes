@@ -53,7 +53,6 @@ public:
         return ans; // Return the preorder traversal result
     }
 };
-
 // Helper function to create a sample binary tree for demonstration
 Node *buildSampleTree()
 {
@@ -86,6 +85,7 @@ int main(){
     // Memory clean-up can be added here if needed for larger trees
     return 0;
 }
+
 
 
 
