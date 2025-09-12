@@ -81,8 +81,7 @@ int main(){
     {
         cin>>arr[i];
     }
-        
-            // Perform merge sort on the entire array
+    // Perform merge sort on the entire array
     mergesort(arr, 0, 9);
 
     // Print the sorted array
@@ -94,6 +93,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
