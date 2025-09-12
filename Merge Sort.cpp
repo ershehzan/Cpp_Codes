@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
 // Function to merge two sorted halves of the array into a single sorted section
 void merge(int arr[], int start, int mid, int end)
 {
@@ -90,3 +89,4 @@ int main()
 
     return 0;
 }
+
