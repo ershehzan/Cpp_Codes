@@ -73,9 +73,16 @@ void mergesort(int arr[], int start, int end)
 
 int main(){
     // Input array to be sorted
-    int arr[] = {12, 11, 13, 5, 6, 7, 34, 56, 82, 10};
-
-    // Perform merge sort on the entire array
+    int arr[100];
+    int n;
+    cout<<"Enter the Size of Array";
+    cin>>n;
+    for(int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+        
+            // Perform merge sort on the entire array
     mergesort(arr, 0, 9);
 
     // Print the sorted array
@@ -87,6 +94,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
