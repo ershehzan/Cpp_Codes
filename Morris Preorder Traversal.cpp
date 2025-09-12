@@ -11,8 +11,7 @@ struct Node{
 };
 
 // Solution class encapsulating the Morris Preorder Traversal algorithm
-class Solution
-{
+class Solution{
 public:
     // Function to perform Morris Preorder Traversal on a binary tree.
     // Returns a vector containing the preorder traversal of the tree.
@@ -88,6 +87,7 @@ int main()
     // Memory clean-up can be added here if needed for larger trees
     return 0;
 }
+
 
 
 
