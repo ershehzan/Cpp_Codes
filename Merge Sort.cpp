@@ -83,7 +83,6 @@ int main(){
     }
     // Perform merge sort on the entire array
     mergesort(arr, 0, 9);
-
     // Print the sorted array
     cout << "Sorted array is: \n";
     for (int i = 0; i < 10; i++)
@@ -93,6 +92,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
