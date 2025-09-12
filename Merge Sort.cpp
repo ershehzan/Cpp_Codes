@@ -71,8 +71,7 @@ void mergesort(int arr[], int start, int end)
     merge(arr, start, mid, end);
 }
 
-int main()
-{
+int main(){
     // Input array to be sorted
     int arr[] = {12, 11, 13, 5, 6, 7, 34, 56, 82, 10};
 
@@ -88,5 +87,6 @@ int main()
 
     return 0;
 }
+
 
 
