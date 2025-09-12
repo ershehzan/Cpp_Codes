@@ -3,8 +3,7 @@
 using namespace std;
 
 // Definition for a binary tree node.
-struct Node
-{
+struct Node{
     int data;            // Value stored in the node
     Node *left;          // Pointer to the left child
     Node *right;         // Pointer to the right child
@@ -89,3 +88,4 @@ int main()
     // Memory clean-up can be added here if needed for larger trees
     return 0;
 }
+
