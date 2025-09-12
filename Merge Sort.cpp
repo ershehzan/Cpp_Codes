@@ -40,7 +40,6 @@ void merge(int arr[], int start, int mid, int end)
         temp[index] = arr[right];
         index++, right++;
     }
-
     // Copy the merged elements back into the original array
     index = 0;
     while (start <= end)
@@ -89,4 +88,5 @@ int main()
 
     return 0;
 }
+
 
