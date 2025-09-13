@@ -17,8 +17,7 @@ public:
 };
 
 // Stack class implements stack functionality using linked list
-class Stack
-{
+class Stack{
     Node *top;   // Pointer to the top element of the stack
     int size;    // Current size of the stack
 
@@ -110,4 +109,5 @@ int main()
 
     // Program ends, stack will be destroyed
 }
+
 
