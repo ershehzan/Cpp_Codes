@@ -97,8 +97,7 @@ public:
 };
 
 // Main function demonstrating stack operations
-int main()
-{
+int main(){
     Stack s;          // Create a stack object
 
     s.push(10);       // Push 10 onto stack
@@ -109,5 +108,6 @@ int main()
 
     // Program ends, stack will be destroyed
 }
+
 
 
