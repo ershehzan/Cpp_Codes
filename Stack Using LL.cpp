@@ -3,8 +3,7 @@
 using namespace std;
 
 // Node class represents each element in the stack
-class Node
-{
+class Node{
 public:
     int data;        // Value stored in the node
     Node *next;      // Pointer to the next node
@@ -111,3 +110,4 @@ int main()
 
     // Program ends, stack will be destroyed
 }
+
