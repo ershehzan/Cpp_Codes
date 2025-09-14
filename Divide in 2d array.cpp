@@ -24,7 +24,6 @@ int main(){
                 ans[i][j] = 0; // Assign 0 if division by zero occurs
         }
     }
-
     // Printing the resultant array
     for (int i = 0; i < 3; i++)
     {
@@ -37,6 +36,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
