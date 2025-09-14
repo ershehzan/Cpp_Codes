@@ -33,9 +33,9 @@ int main(){
         }
         cout << endl; // Print new line for better readability
     }
-
     return 0;
 }
+
 
 
 
