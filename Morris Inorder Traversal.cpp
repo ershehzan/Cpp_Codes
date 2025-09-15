@@ -25,8 +25,7 @@ public:
                 ans.push_back(root->data); // Visit the current node
                 root = root->right;        // Move to the right child
             }
-            else
-            {
+            else{
                 // Find the rightmost node in the left subtree or the inorder predecessor of root
                 Node *curr = root->left;
                 while (curr->right && curr->right != root)
@@ -86,6 +85,7 @@ int main()
 
     return 0;
 }
+
 
 
 
