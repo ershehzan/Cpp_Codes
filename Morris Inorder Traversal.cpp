@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
 // Definition for a binary tree node.
 struct Node
 {
@@ -89,3 +88,4 @@ int main()
 
     return 0;
 }
+
