@@ -65,7 +65,6 @@ Node *buildSampleTree(){
     root->left->right = new Node(5);
     return root;
 }
-
 int main(){
     
     Node *root = buildSampleTree();  // Build a sample tree
@@ -84,6 +83,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
