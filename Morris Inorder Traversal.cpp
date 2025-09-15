@@ -10,8 +10,7 @@ struct Node{
 };
 
 // Solution class with Morris Inorder Traversal
-class Solution
-{
+class Solution{
 public:
     // Function to perform Morris Inorder Traversal on a binary tree.
     // Returns a vector containing the inorder traversal of the tree.
@@ -87,5 +86,6 @@ int main()
 
     return 0;
 }
+
 
 
