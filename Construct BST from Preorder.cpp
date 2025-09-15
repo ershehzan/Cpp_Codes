@@ -15,7 +15,6 @@ public:
         left = right = NULL;
     }
 };
-
 // Recursive function to construct BST from preorder traversal using bounds
 TreeNode* BST(vector<int>& arr, int& index, int lower, int upper) {
     // Base case: end of array or current element out of bounds
@@ -97,6 +96,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
