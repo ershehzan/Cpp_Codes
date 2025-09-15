@@ -68,6 +68,7 @@ Node *buildSampleTree(){
 }
 
 int main(){
+    
     Node *root = buildSampleTree();  // Build a sample tree
     Solution sol;                    // Create Solution object
     vector<int> inorder = sol.inOrder(root); // Get inorder traversal using Morris Traversal
@@ -84,6 +85,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
