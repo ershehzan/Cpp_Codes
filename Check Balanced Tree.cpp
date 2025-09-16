@@ -2,7 +2,6 @@
 #include <algorithm>
 #include <cmath>
 using namespace std;
-
 // Binary tree node structure
 class Node {
     public:
@@ -77,6 +76,7 @@ int main() {
 
         return 0;
 }
+
 
 
 
