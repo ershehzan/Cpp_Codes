@@ -16,7 +16,6 @@ class Node {
                 right = NULL;
         }
 };
-
 // Helper function to compute the height of the tree and check if it's balanced
 // Returns the height of the subtree rooted at 'root'
 // Sets 'valid' to false if the tree is found unbalanced at any node
@@ -76,6 +75,7 @@ int main() {
 
         return 0;
 }
+
 
 
 
