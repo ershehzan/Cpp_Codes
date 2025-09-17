@@ -36,8 +36,7 @@ node *DLL(int arr[], int index, int size, node *back)
     return temp;
 }
 
-int main()
-{
+int main(){
     node *head = NULL; // Pointer to head of the doubly linked list
 
     int n;
@@ -65,4 +64,5 @@ int main()
 
     return 0;
 }
+
 
