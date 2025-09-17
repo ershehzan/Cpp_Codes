@@ -8,8 +8,7 @@ public:
     node *prev;     // Pointer to the previous node
 
     // Constructor to initialize the node
-    node(int val)
-    {
+    node(int val){
         data = val;
         next = prev = NULL;
     }
@@ -63,6 +62,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
