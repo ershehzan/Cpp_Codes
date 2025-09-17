@@ -1,8 +1,7 @@
 #include <iostream>  
 using namespace std;
 
-int main()
-{
+int main(){
     int arr[1000];  // Declare an array with a maximum size of 1000
     int n;          // Variable to store the size of the array
 
@@ -45,3 +44,4 @@ int main()
 
     return 0;
 }
+
