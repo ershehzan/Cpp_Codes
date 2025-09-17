@@ -13,7 +13,6 @@ public:
         next = prev = NULL;
     }
 };
-
 int main(){
     
     node *head = NULL; // Pointer to the head (first node) of the DLL
@@ -108,6 +107,7 @@ int main(){
         trav = trav->next;
     }
 }
+
 
 
 
