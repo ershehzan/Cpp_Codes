@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 // Definition of node class for the Doubly Linked List
 class node{
 public:
@@ -64,5 +63,6 @@ int main(){
 
     return 0;
 }
+
 
 
