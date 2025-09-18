@@ -54,11 +54,11 @@ int main(){
 
     // Build a min heap from the input array
     buildMinheap(arr, n);
-
     // Print the resulting min heap
     print(arr);
 
     return 0;
 }
+
 
 
