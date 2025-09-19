@@ -23,7 +23,7 @@ int main(){
         cout << arr[i] << " "; // Print each element of the array up to the new size
     }
     cout << endl; // Print a newline character at the end
-
     return 0; // Return 0 to indicate successful execution
 
 }
+
