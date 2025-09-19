@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main(){
     int n; // Variable to store the number of elements in the array
     cout << "Enter the number of elements in the array: ";
@@ -26,4 +25,5 @@ int main(){
     return 0; // Return 0 to indicate successful execution
 
 }
+
 
