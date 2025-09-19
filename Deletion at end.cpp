@@ -11,11 +11,9 @@ int main(){
     {
         cin >> arr[i]; // Read each element from the user and store it in the array
     }
-
     // Decrease the size of the array by 1 to delete the last element
     // This effectively removes the last element from the array
     n--;
-
     cout << "Array after deletion at the end: ";
     for (int i = 0; i < n; i++)
     {
@@ -25,5 +23,6 @@ int main(){
     return 0; // Return 0 to indicate successful execution
 
 }
+
 
 
