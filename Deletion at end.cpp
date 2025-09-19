@@ -21,8 +21,8 @@ int main(){
     }
     cout << endl; // Print a newline character at the end
     return 0; // Return 0 to indicate successful execution
-
 }
+
 
 
 
