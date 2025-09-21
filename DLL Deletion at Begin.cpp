@@ -14,8 +14,7 @@ public:
     }
 };
 
-int main()
-{
+int main(){
     node *head = NULL;   // Pointer to the head (first node) of the list
     node *tail = NULL;   // Pointer to the tail (last node) of the list
     int n;
@@ -76,4 +75,5 @@ int main()
         trav = trav->next;          // Move to next node
     }
 }
+
 
