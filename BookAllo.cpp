@@ -41,8 +41,8 @@ int main(){
             start = mid + 1; // Increase search space if students exceed the given 'n'
         }
     }
-
     cout << "Minimum maximum pages allocated: " << ans; // Print the result
     return 0;
 }
+
 
