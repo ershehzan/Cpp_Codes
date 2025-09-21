@@ -14,7 +14,6 @@ struct Node{
         left = right = NULL; // Initialize left and right to NULL
     }
 };
-
 // Searches for the index of 'target' in 'arr' between indices s and e (inclusive)
 // Returns the index if found, otherwise returns -1
 int search(vector<int> &arr, int target, int s, int e){
@@ -115,6 +114,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
