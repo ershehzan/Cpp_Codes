@@ -111,7 +111,7 @@ void printList(Node* head) {
 
 int main(){
     // Example input: 1st list: 2 -> 4 -> 3 (represents 243)
-    //               2nd list: 5 -> 6 -> 4 (represents 564)
+    // 2nd list: 5 -> 6 -> 4 (represents 564)
     int arr1[] = {2, 4, 3};
     int arr2[] = {5, 6, 4};
     int n1 = sizeof(arr1) / sizeof(arr1[0]);
@@ -135,6 +135,7 @@ int main(){
     }
     return 0;
 }
+
 
 
 
