@@ -106,13 +106,13 @@ int main(){
     Solution sol;
     // Build the tree using the given traversals
     Node *root = sol.buildTree(inorder, postorder);
-
     // Output the tree in level order to verify correctness
     cout << "Level order traversal of constructed tree:" << endl;
     printLevelOrder(root);
 
     return 0;
 }
+
 
 
 
