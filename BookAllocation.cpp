@@ -50,7 +50,6 @@ int findPages(int arr[], int n, int students) {
 
     return ans;
 }
-
 int main() {
     int n, students;
     
@@ -74,3 +73,4 @@ int main() {
 
     return 0;
 }
+
