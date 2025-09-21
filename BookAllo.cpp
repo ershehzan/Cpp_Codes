@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main(){
     int n;
     cout << "Enter the number of students: ";
     cin >> n;
@@ -46,3 +45,4 @@ int main()
     cout << "Minimum maximum pages allocated: " << ans; // Print the result
     return 0;
 }
+
