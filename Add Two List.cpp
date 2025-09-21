@@ -133,8 +133,10 @@ int main(){
         result = result->next;
         delete temp;
     }
+  
     return 0;
 }
+
 
 
 
