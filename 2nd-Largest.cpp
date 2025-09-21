@@ -36,9 +36,9 @@ int main(){
     // Displaying results
     cout << "Largest Element is: " << ans << endl;
     cout << "Second Largest Element is: " << sec << endl;
-    
     return 0;
 }
+
 
 
 
