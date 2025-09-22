@@ -2,8 +2,7 @@
 #include <vector>
 using namespace std;
 
-class Solution
-{
+class Solution{
 public:
     void DFS(int node, vector<vector<int>> &adj, vector<int> &ans, vector<bool> &vis)
     {
@@ -52,4 +51,5 @@ int main()
     cout << endl;
 
     return 0;
+
 }
