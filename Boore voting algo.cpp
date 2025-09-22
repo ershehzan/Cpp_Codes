@@ -34,7 +34,6 @@ public:
                 count++;
             }
         }
-
         // Return the candidate if it is the majority element, otherwise return -1
         return (count > n / 2) ? can : -1;  // Return -1 if no majority element exists
     }
@@ -48,6 +47,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
