@@ -5,8 +5,7 @@
 #include <vector>
 #include <queue>
 using namespace std;
-class Solution
-{
+class Solution{
 public:
     bool isBipartite(int V, vector<vector<int>> &edges)
     {
@@ -76,3 +75,4 @@ int main()
     return 0;
 
 }
+
