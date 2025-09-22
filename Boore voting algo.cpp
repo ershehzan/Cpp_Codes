@@ -38,7 +38,6 @@ public:
         return (count > n / 2) ? can : -1;  // Return -1 if no majority element exists
     }
 };
-
 // Driver Code
 int main() {
     vector<int> nums = {3, 2, 3};  // Input array
@@ -47,6 +46,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
