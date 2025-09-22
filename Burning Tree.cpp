@@ -103,7 +103,6 @@ Node* buildTree() {
     }
     return root;
 }
-
 // Main function to drive the program
 int main() {
     cout << "Enter tree in level order (use -1 for NULL nodes):" << endl;
@@ -116,3 +115,4 @@ int main() {
     cout << "Minimum time to burn the tree: " << result << endl;
     return 0;
 }
+
