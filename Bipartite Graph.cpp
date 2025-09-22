@@ -5,7 +5,6 @@
 #include <vector>
 #include <queue>
 using namespace std;
-
 class Solution
 {
 public:
@@ -75,4 +74,5 @@ int main()
         cout << "Graph is NOT Bipartite" << endl;
     }
     return 0;
+
 }
