@@ -69,7 +69,6 @@ public:
         return arr[front];
     }
 };
-
 int main(){
    int n;
     cout << "Enter the size of the Queue: ";
@@ -86,6 +85,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
