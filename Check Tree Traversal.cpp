@@ -74,7 +74,6 @@ public:
         return true; // All traversals match
     }
 };
-
 int main() {
     int N;
     cout << "Enter number of nodes: ";
@@ -102,4 +101,5 @@ int main() {
 
     return 0;
 }
+
 
