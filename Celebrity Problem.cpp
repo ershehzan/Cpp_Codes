@@ -54,6 +54,7 @@ public:
         return candidate;
     }
 };
+
 int main() {
     Solution solution;
     int n;
@@ -74,4 +75,5 @@ int main() {
         cout << "Celebrity is person: " << result << endl;
     return 0;
 }
+
 
