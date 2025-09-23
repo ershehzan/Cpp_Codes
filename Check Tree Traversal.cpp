@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
 // Definition of a node in the binary tree
 struct Node {
     int data;       // Value stored in the node
@@ -101,5 +102,6 @@ int main() {
 
     return 0;
 }
+
 
 
