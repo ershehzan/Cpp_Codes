@@ -108,7 +108,6 @@ void printList(Node* head) {
     }
     cout << endl;
 }
-
 int main(){
     // Example input: 1st list: 2 -> 4 -> 3 (represents 243)
     // 2nd list: 5 -> 6 -> 4 (represents 564)
@@ -136,6 +135,7 @@ int main(){
   
     return 0;
 }
+
 
 
 
