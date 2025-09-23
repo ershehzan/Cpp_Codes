@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int main(){
     int arr[1000]; // Array to store elements
     // Input array size
@@ -43,6 +44,7 @@ int main(){
     }
     return 0;
 }
+
 
 
 
