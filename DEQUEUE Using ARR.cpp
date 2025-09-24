@@ -141,7 +141,6 @@ public:
 };
 
 int main(){
-    
     dequeue d(5);          // Create a dequeue of size 5
     d.push_back(10);       // Insert 10 at the back
     d.push_back(20);       // Insert 20 at the back
@@ -160,6 +159,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
