@@ -63,11 +63,13 @@ int main(){
     Node* root = sol.sortedArrayToBST(arr);
     // Print inorder traversal of the constructed BST
     cout << "Inorder Traversal of the constructed BST: ";
+    
     inorderTraversal(root);
     cout << endl;
 
     return 0;
 }
+
 
 
 
