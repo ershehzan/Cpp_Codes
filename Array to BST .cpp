@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 // Binary Tree Node class
-class Node {
+class Node{
 public:
     int data;       // Value of the node
     Node* left;     // Pointer to the left child
@@ -70,6 +70,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
