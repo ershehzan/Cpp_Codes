@@ -23,7 +23,6 @@ int fact(int n)
     }
     return fact;  // Return the computed factorial
 }
-
 int main(){
     int a, b;  // Variables to store user input
 
@@ -47,6 +46,7 @@ int main(){
 
     return 0;  
 }
+
 
 
 
