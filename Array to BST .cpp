@@ -10,7 +10,8 @@ public:
 
     // Constructor to initialize a node with given value
     Node(int val)
-        : data(val), left(nullptr), right(nullptr) {}
+        data=val;
+       left=right=NULL;
 };
 // Solution class to build BST from sorted array
 class Solution {
@@ -67,6 +68,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
