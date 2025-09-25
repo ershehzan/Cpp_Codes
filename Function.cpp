@@ -13,7 +13,6 @@ bool prime(int n){
     }
     return true;  // If no divisors, it's prime
 }
-
 // Function to calculate factorial of a number
 int fact(int n)
 {
@@ -48,6 +47,7 @@ int main(){
 
     return 0;  
 }
+
 
 
 
