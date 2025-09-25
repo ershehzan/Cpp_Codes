@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 // Function to check if a number is prime
 bool prime(int n){
     if (n <= 1)  // Numbers less than or equal to 1 are not prime
@@ -49,5 +48,6 @@ int main(){
 
     return 0;  
 }
+
 
 
