@@ -58,7 +58,6 @@ int main(){
     vector<int> arr = {-10, -3, 0, 5, 9};
     // Create Solution object
     Solution sol;
-
     // Construct BST from sorted array
     Node* root = sol.sortedArrayToBST(arr);
 
@@ -69,6 +68,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
