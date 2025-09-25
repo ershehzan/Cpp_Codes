@@ -9,8 +9,7 @@ public:
     Node *right;     // Pointer to the right child
 
     // Constructor to initialize the node with a value
-    Node(int value)
-    {
+    Node(int value){
         data = value;          // Set the node's data
         left = right = NULL;   // Initialize left and right pointers to NULL
     }
@@ -73,4 +72,5 @@ int main()
 
     cout << endl; // Print a newline at the end
 }
+
 
