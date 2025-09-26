@@ -9,6 +9,7 @@ public:
         next = NULL;
     }
 };
+
 int main(){
     node *head;
     node *tail = NULL; // Declare tail outside the loop
@@ -61,6 +62,7 @@ int main(){
     }
 
 }
+
 
 
 
