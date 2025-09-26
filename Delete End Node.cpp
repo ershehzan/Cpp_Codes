@@ -56,6 +56,7 @@ int main(){
 
     cout << "Linked List After Last Node Deletion: ";
     node *current = head;
+    
     while (current)
     {
         cout << current->data << " ";
@@ -63,6 +64,7 @@ int main(){
     }
 
 }
+
 
 
 
