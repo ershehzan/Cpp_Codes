@@ -2,8 +2,7 @@
 using namespace std;
 
 // Definition of the node class for a doubly linked list
-class node
-{
+class node{
 public:
     int data;       // Data part of the node
     node *next;     // Pointer to the next node
@@ -66,3 +65,4 @@ int main()
 
     return 0;
 }
+
