@@ -10,6 +10,7 @@ public:
 
     // Constructor to initialize the node with a value
     node(int val){
+        
         data = val;
         next = NULL;
         prev = NULL;
@@ -63,6 +64,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
