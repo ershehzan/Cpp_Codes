@@ -18,6 +18,7 @@ public:
 };
 
 int main(){
+    
     node *head = NULL; // Points to the first node of the list
     node *tail = NULL; // Points to the last node of the list
 
@@ -64,6 +65,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
