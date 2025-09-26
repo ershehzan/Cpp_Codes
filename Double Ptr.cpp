@@ -14,11 +14,10 @@ int main(){
     cout<<&p1<<endl;
 cout<<p2<<endl;
 
-
 *p=*p+5;
 cout<<n<<endl; //15
-
 
     return 0;
 
 }
+
