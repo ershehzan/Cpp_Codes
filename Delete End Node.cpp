@@ -37,7 +37,6 @@ int main(){
             delete temp;
             head = NULL;
         }
-
         else
         {
             node *prev = NULL;
@@ -62,6 +61,7 @@ int main(){
     }
 
 }
+
 
 
 
