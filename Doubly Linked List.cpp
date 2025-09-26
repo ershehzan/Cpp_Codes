@@ -57,6 +57,7 @@ int main(){
     // Traverse and display the linked list
     node *curr = head;
     cout << "Doubly Linked List: ";
+    
     while (curr != NULL)
     {
         cout << curr->data << " "; // Print current node's data
@@ -65,6 +66,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
