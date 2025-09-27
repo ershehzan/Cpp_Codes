@@ -1,11 +1,9 @@
 #include <iostream> 
 using namespace std;
 
-int main()
-{
+int main(){   
+    
     int n, i, j; // Declare variables
-
-   
     cout << "Enter the number: ";
     cin >> n; // Take input from the user
 
@@ -31,3 +29,4 @@ int main()
 5 4 3 
 5 4 3 2 
 5 4 3 2 1    */
+
