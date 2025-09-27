@@ -1,8 +1,7 @@
 #include <iostream> // Include input-output stream library
 using namespace std; // Use the standard namespace
 
-int main()
-{
+int main(){
     int n, i, j; // Declare variables: n for user input, i and j for loops
 
     // Prompt the user to enter a number
@@ -43,4 +42,5 @@ Enter the number: 5
   - ...
   - Row n prints `n (n-1) (n-2) ... 1`
 */
+
 
