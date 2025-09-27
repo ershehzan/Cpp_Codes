@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main(){
     int n, i, j; // Declare variables for user input and loop counters
 
     // Prompt the user to enter a number
@@ -31,3 +30,4 @@ Enter the number: 5
 4 4 4 4 
 5 5 5 5 5    
 */
+
