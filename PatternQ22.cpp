@@ -1,8 +1,7 @@
 #include <iostream> 
 using namespace std;
 
-int main()
-{
+int main(){
     // i represents the row, j represents the column
     int n, i, j;
     
@@ -52,3 +51,4 @@ Pattern formation logic:
 - Row n:  (0) spaces + n '*'
 
 */
+
