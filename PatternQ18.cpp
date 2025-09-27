@@ -1,8 +1,7 @@
 #include <iostream> 
 using namespace std;
 
-int main()
-{
+int main(){
     int n, i, j; // Declare variables
 
   
@@ -38,3 +37,4 @@ int main()
  4 3 2 1 
 5 4 3 2 1 
    */
+
