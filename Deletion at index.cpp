@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 // Function to delete an element from the array at a given index
 void deleteElement(int arr[], int &size, int index) {
     // Check if the index is valid
@@ -38,4 +37,5 @@ int main(){
     
     return 0;
 }
+
 
