@@ -21,7 +21,6 @@ int main(){
 
     return 0; // Indicate successful program termination
 }
-
 /* Example Output (when user enters 5)
 Enter the number: 5
 1 
@@ -42,5 +41,6 @@ Enter the number: 5
   - ...
   - Row n prints `n (n-1) (n-2) ... 1`
 */
+
 
 
