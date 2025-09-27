@@ -29,7 +29,6 @@ int main(){
 
     return 0; 
 }
-
 /* Example Output (if n = 5)
 
         * 
@@ -51,4 +50,5 @@ Pattern formation logic:
 - Row n:  (0) spaces + n '*'
 
 */
+
 
