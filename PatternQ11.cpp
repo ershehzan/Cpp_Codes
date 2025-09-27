@@ -22,7 +22,6 @@ int main(){
 
     return 0; // Indicate successful program termination
 }
-
 /* Output Example (when user enters 5)
 Enter the number: 5
 1       
@@ -31,5 +30,6 @@ Enter the number: 5
 4 4 4 4 
 5 5 5 5 5    
 */
+
 
 
