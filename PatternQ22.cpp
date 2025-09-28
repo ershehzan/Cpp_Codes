@@ -26,7 +26,6 @@ int main(){
 
         cout << endl; // Move to the next line after completing a row
     }
-
     return 0; 
 }
 /* Example Output (if n = 5)
@@ -50,5 +49,6 @@ Pattern formation logic:
 - Row n:  (0) spaces + n '*'
 
 */
+
 
 
