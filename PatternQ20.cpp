@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main(){
     int n, i, j; // Declare integer variables
 
     // Prompt the user to enter a number
@@ -55,3 +54,4 @@ Pattern formation logic:
 - Row n:  (0) spaces + n times the corresponding letter.
 
 */
+
