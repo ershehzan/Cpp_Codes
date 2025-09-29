@@ -53,7 +53,6 @@ public:
         return sum2 - sum1;
     }
 };
-
 int main() {
     long long arr[] = {1, 3, 12, 5, 15, 11};
     long long N = sizeof(arr) / sizeof(arr[0]);
@@ -66,3 +65,4 @@ int main() {
 
     return 0;
 }
+
