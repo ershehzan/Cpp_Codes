@@ -18,9 +18,9 @@ int main() {
         // 1.0 ensures floating-point division
         sum += 1.0 / pow(i, i); 
     }
-
     // Print the final sum of the series
     cout << "Sum of the series: " << sum << endl;
 
     return 0; // Indicate that the program ended successfully
 }
+
