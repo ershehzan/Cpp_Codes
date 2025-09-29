@@ -16,12 +16,12 @@ int main(){
             sum += i; // Add the odd number to the sum
         }
     }
-
     // Output the result
     cout << "The sum of the first " << n << " odd numbers is: " << sum;
 
     return 0; 
 }
+
 
 
 
