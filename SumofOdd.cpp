@@ -1,7 +1,7 @@
 #include <iostream> 
 using namespace std; 
-int main()
-{
+
+int main(){
     int n, sum = 0; // Declare variables: n for input, sum to store the sum of odd numbers
 
     // Prompt the user to enter the number of terms
@@ -22,3 +22,4 @@ int main()
 
     return 0; 
 }
+
