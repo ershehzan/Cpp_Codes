@@ -9,6 +9,7 @@ int sumSqr(int n)
     }
     return n * n + sumSqr(n - 1);
 };
+
 int main(){
     int n;
     cout << "Enter a number: ";
@@ -22,4 +23,5 @@ int main(){
     cout << "Sum of squares of first " << n << " natural numbers is: " << sumSqr(n) << endl;
 
 }
+
 
