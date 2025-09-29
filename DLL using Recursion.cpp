@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 // Definition of node class for the Doubly Linked List
+
 class node{
 public:
     int data;       // Stores the value
@@ -62,6 +63,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
