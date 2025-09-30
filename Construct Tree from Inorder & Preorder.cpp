@@ -2,6 +2,7 @@
 #include <vector>
 #include <queue>
 using namespace std;
+
 // Tree node structure
 struct Node{
     int data;       // Stores the value of the node
@@ -112,6 +113,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
