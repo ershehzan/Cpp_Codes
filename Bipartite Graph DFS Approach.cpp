@@ -2,8 +2,7 @@
 #include <vector>
 using namespace std;
 
-class Solution
-{
+class Solution{
 public:
     bool DFS(int node, vector<int> adj[], vector<int> &color)
     {
@@ -67,4 +66,5 @@ int main()
     else
         cout << "Graph is NOT Bipartite" << endl;
     return 0;
+
 }
