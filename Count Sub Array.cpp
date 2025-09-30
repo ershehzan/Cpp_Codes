@@ -30,6 +30,7 @@ public:
 };
 
 int main() {
+    
     Solution solution; // Create an instance of the Solution class
 
     // Example input vector
@@ -43,3 +44,4 @@ int main() {
 
     return 0; // Exit the program
 }
+
