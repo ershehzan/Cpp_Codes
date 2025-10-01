@@ -5,7 +5,9 @@
 #include <vector>
 #include <queue>
 using namespace std;
-class Solution{
+
+class Solution
+{
 public:
     bool isBipartite(int V, vector<vector<int>> &edges)
     {
@@ -50,8 +52,8 @@ public:
     }
 };
 
-int main(){
-    
+int main()
+{
     int V, E;
     cout << "Enter number of vertices and edges: ";
     cin >> V >> E;
@@ -73,8 +75,4 @@ int main(){
         cout << "Graph is NOT Bipartite" << endl;
     }
     return 0;
-
 }
-
-
-

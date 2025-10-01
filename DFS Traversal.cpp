@@ -2,7 +2,8 @@
 #include <vector>
 using namespace std;
 
-class Solution{
+class Solution
+{
 public:
     void DFS(int node, vector<vector<int>> &adj, vector<int> &ans, vector<bool> &vis)
     {
@@ -29,7 +30,8 @@ public:
     }
 };
 
-int main(){
+int main()
+{
     // Example graph: 0-1, 0-2, 1-3, 1-4
     vector<vector<int>> adj = {
         {1, 2},    // neighbors of node 0
@@ -50,6 +52,4 @@ int main(){
     cout << endl;
 
     return 0;
-
 }
-

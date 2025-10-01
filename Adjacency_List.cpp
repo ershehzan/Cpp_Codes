@@ -6,25 +6,27 @@ int main()
 {
     int vertex, edges;
     cout << "Enter number of vertices and edges: ";
-    cin >> vertex>>edges;
-    
-    vector<vector<bool>> adjmat(vertex, vector<bool>(vertex, 0));
+    cin >> vertex >> edges;
+
+    vector<int> list[vertex];
     int u, v;
 
     for (int i = 0; i < edges; i++)
     {
         cin >> u >> v;
-        adjmat[u][v] = 1;
-        adjmat[v][u] = 1; // Since the graph is undirected
+        list[u].push_back(v);
+        list[v].push_back(u);
     }
+
     cout << "Adjacency Matrix:" << endl;
-    for(int i=0;i<vertex;i++)
+    for (int i = 0; i < vertex; i++)
     {
-        for(int j=0;j<vertex;j++)
+        cout<<i<<"->";
+        // Print the adjacency list for vertex i
+        for (size_t j = 0; j < list[i].size(); j++)
         {
-            cout<<adjmat[i][j]<<" ";
-            
+            cout << list[i][j] << " ";
         }
-        cout<<endl;
+        cout << endl;
     }
 }

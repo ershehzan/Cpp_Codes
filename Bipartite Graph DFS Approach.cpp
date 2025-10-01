@@ -2,7 +2,8 @@
 #include <vector>
 using namespace std;
 
-class Solution{
+class Solution
+{
 public:
     bool DFS(int node, vector<int> adj[], vector<int> &color)
     {
@@ -47,8 +48,8 @@ public:
     }
 };
 
-int main(){
-    
+int main()
+{
     int V, E;
     cout << "Enter number of vertices and edges: ";
     cin >> V >> E;
@@ -66,7 +67,4 @@ int main(){
     else
         cout << "Graph is NOT Bipartite" << endl;
     return 0;
-
 }
-
-
