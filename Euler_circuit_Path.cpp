@@ -67,6 +67,7 @@ int main(){
         adj[u].push_back(v);
         adj[v].push_back(u); // undirected graph
     }
+    
     Solution sol;
     int res = sol.isEulerCircuit(V, adj);
     if (res == 2)
@@ -78,5 +79,6 @@ int main(){
     return 0;
 
 }
+
 
 
