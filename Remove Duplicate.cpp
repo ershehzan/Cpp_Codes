@@ -3,8 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-int main()
-{
+int main(){
     // Initialize a vector with some values
     vector<int> arr = {5, 3, 8, 6, 2, 9, 10, 7, 4, 10};
     int n = 10;  // Size of the vector
@@ -44,3 +43,4 @@ int main()
 
     return 0;  
 }
+
