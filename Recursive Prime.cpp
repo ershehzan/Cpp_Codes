@@ -13,8 +13,8 @@ bool isPrimeRecursive(int n, int i = 2)
     return isPrimeRecursive(n, i + 1);
 }
 
-int main()
-{
+int main(){
+    
     int n;
     cout << "Enter a number: ";
     cin >> n;
@@ -26,3 +26,4 @@ int main()
 
     return 0;
 }
+
