@@ -2,8 +2,7 @@
 #include <vector>
 using namespace std;
 
-class Solution
-{
+class Solution{
 public:
     void DFS(int node, vector<int> adj[], vector<bool> &vis)
     {
@@ -77,4 +76,5 @@ int main()
     else
         cout << "Graph is not Eulerian" << endl;
     return 0;
+
 }
