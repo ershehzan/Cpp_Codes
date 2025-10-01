@@ -20,7 +20,6 @@ int main(){
             }
         }
     }
-
     // Loop to remove duplicate elements from the sorted vector
     int i;
     for (i = 0; i < n - 1; i++)
@@ -43,4 +42,5 @@ int main(){
 
     return 0;  
 }
+
 
