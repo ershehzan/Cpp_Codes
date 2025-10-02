@@ -14,8 +14,7 @@ class Node {
             data = val;
             left = right = NULL;
         }
-};
-
+}; 
 // Helper function to find the node with the target value
 // Updates burnNode pointer to point to the node with 'target' value
 void find(Node* root, int target, Node*& burnNode) {
@@ -115,4 +114,5 @@ int main() {
     cout << "Minimum time to burn the tree: " << result << endl;
     return 0;
 }
+
 
