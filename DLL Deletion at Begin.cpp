@@ -65,7 +65,6 @@ int main(){
             head->prev = NULL;  // Set new head's previous pointer to NULL
         }
     }
-
     // Traverse and display the linked list
     node *trav = head;
     cout << "The linked list is: ";
@@ -75,5 +74,6 @@ int main(){
         trav = trav->next;          // Move to next node
     }
 }
+
 
 
