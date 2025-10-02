@@ -17,8 +17,7 @@ double add(double a, double b)
     return a + b; // Returns the sum of two doubles
 }
 
-int main()
-{
+int main(){
     cout << "Function overloading: " << endl;
     
     // Calling the integer addition function
@@ -30,3 +29,4 @@ int main()
     cout << add(1.1, 2.2) << endl; // Calls the double version of add()
     
     return 0;
+
