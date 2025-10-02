@@ -42,8 +42,7 @@ public:
     }
 };
 
-int main()
-{
+int main(){
     int n, m;
     cout << "Enter number of courses and number of prerequisites: ";
     cin >> n >> m;
@@ -71,3 +70,4 @@ int main()
     return 0;
 
 }
+
