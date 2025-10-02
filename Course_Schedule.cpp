@@ -3,8 +3,7 @@
 #include <queue>
 using namespace std;
 
-class Solution
-{
+class Solution{
 public:
     vector<int> findOrder(int n, vector<vector<int>> prerequisites)
     {
@@ -70,4 +69,5 @@ int main()
         cout << endl;
     }
     return 0;
+
 }
