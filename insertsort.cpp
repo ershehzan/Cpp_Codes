@@ -30,7 +30,7 @@ int main(){
     {
         cout << arr[i] << " "; // Output each sorted element separated by a space
     }
-
     return 0; // Indicate successful program execution
 }
+
 
