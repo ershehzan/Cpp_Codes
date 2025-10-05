@@ -44,7 +44,6 @@ int main(){
     Dog dog;
     Cat cat;
     Bird bird;
-
     // Calling makeSound() for each object
     // Since makeSound() is overridden in each derived class, the appropriate function is executed.
     dog.makeSound();  // Outputs: Woof!
@@ -53,6 +52,7 @@ int main(){
 
     return 0; 
 }
+
 
 
 
