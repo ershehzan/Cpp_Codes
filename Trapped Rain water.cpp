@@ -1,7 +1,6 @@
 /* Function to calculate the amount of trapped rainwater
    Time Complexity: O(n) - We traverse the height array once using the two-pointer approach
    Space Complexity: O(1) - We use only a few extra variables, independent of input size */ 
-
 #include <vector>
 #include <algorithm>
 #include <iostream>
@@ -41,4 +40,5 @@ int main()
     cout << "Trapped rain water: " << result << endl;          // Output the result
     return 0;
 }
+
 
