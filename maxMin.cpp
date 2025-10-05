@@ -3,6 +3,7 @@
 using namespace std; // Use the standard namespace
 
 int main(){
+    
     int arr[5] = {13, 24, 35, 40, 51}; // Declare and initialize an array with 5 elements
     
     int i; // Loop variable
@@ -30,4 +31,5 @@ int main(){
 
     return 0; 
 }
+
 
