@@ -33,12 +33,12 @@ int trap(vector<int> &height)
     return unit; // Return the total trapped water
 }
 
-int main()
-{
+int main(){
     vector<int> height = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}; // Example input
     int result = trap(height);                                 // Call the function
     cout << "Trapped rain water: " << result << endl;          // Output the result
     return 0;
 }
+
 
 
