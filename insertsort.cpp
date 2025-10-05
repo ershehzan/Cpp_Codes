@@ -2,8 +2,7 @@
 using namespace std; 
 
 // Main function where execution starts
-int main()
-{
+int main(){
     int i, j, key; // Declare variables for loop control and key for insertion
 
     // Initialize an array of size 6 with unsorted elements
@@ -34,3 +33,4 @@ int main()
 
     return 0; // Indicate successful program execution
 }
+
