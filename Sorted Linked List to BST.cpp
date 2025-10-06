@@ -3,8 +3,7 @@
 using namespace std;
 
 // Definition of a Linked List Node
-class LNode
-{
+class LNode{
 public:
     int data;
     LNode *next;
@@ -126,3 +125,4 @@ int main()
 
     return 0;
 }
+
