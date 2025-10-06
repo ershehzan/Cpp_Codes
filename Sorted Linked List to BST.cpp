@@ -16,8 +16,7 @@ public:
 };
 
 // Definition of a Binary Tree Node
-class Node
-{
+class Node{
 public:
     int data;
     Node *left;
@@ -124,5 +123,6 @@ int main()
 
     return 0;
 }
+
 
 
