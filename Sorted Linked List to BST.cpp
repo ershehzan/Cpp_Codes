@@ -100,8 +100,7 @@ LNode *createLinkedList(vector<int> values)
     return head;
 }
 
-int main()
-{
+int main(){
     // Input: sorted list to be converted to BST
     vector<int> sortedList = {1, 2, 3, 4, 5, 6, 7};
 
@@ -121,6 +120,7 @@ int main()
 
     return 0;
 }
+
 
 
 
