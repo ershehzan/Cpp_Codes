@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main(){
     int n; // Variable to store the number of elements in the array
     cout << "Enter the number of elements in the array: ";
     cin >> n; // Read the number of elements from the user
@@ -30,3 +29,4 @@ int main()
 
     return 0; // Return 0 to indicate successful execution
 }
+
