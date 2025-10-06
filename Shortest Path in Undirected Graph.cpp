@@ -4,8 +4,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class Solution
-{
+class Solution{
 public:
     vector<int> shortestPath(vector<vector<int>> &adj, int src)
     {
@@ -66,3 +65,4 @@ int main()
 
     return 0;
 }
+
