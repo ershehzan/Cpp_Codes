@@ -29,8 +29,7 @@ public:
     }
 };
 
-class Solution
-{
+class Solution{
 public:
     // Helper function to convert a sorted array to a balanced BST
     Node *BST(vector<int> &arr, int start, int end)
@@ -122,6 +121,7 @@ int main()
 
     return 0;
 }
+
 
 
 
