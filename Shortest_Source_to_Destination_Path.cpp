@@ -57,8 +57,7 @@ public:
     }
 };
 
-int main()
-{
+int main(){
     int N, M;
     cout << "Enter number of rows and columns: ";
     cin >> N >> M;
@@ -77,3 +76,4 @@ int main()
     return 0;
 
 }
+
