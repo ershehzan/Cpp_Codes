@@ -15,8 +15,7 @@ void display(queue<int> q)
     cout << endl;
 }
 
-int main()
-{
+int main(){
     int arr[100]; // Array to hold the input elements
     int n, k;     // n = number of elements, k = size of the sliding window
 
@@ -56,3 +55,4 @@ int main()
 
     return 0;
 }
+
