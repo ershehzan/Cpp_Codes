@@ -9,8 +9,7 @@ public:
     LNode *next;
 
     // Constructor to initialize the node with a value
-    LNode(int x)
-    {
+    LNode(int x){
         data = x;
         next = NULL;
     }
@@ -125,4 +124,5 @@ int main()
 
     return 0;
 }
+
 
