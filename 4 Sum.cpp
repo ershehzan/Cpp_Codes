@@ -2,6 +2,7 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
+
 int main(){
     // Initialize a vector with unsorted elements
     vector<int> arr = {1, 8, 6, 4, 10, 45};
@@ -46,6 +47,7 @@ int main(){
     cout << "No Quadriplet found." << endl;
     return 0;
 }
+
 
 
 
