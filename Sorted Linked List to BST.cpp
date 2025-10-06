@@ -23,8 +23,7 @@ public:
     Node *right;
 
     // Constructor to initialize the node with a value
-    Node(int x)
-    {
+    Node(int x){
         data = x;
         left = right = NULL;
     }
@@ -123,6 +122,7 @@ int main()
 
     return 0;
 }
+
 
 
 
