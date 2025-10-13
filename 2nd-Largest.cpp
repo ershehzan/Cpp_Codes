@@ -1,6 +1,7 @@
 #include <iostream>
 #include <climits>
 using namespace std;
+
 int main(){
     int arr[1000];  // Array to store elements
     int n;
@@ -38,6 +39,7 @@ int main(){
     cout << "Second Largest Element is: " << sec << endl;
     return 0;
 }
+
 
 
 
