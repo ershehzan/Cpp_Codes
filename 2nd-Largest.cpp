@@ -24,7 +24,6 @@ int main(){
             ans = arr[i];  // Update the largest element
         }
     }
-
     // Finding the second largest element
     int sec = INT_MIN;
     for (int i = 0; i < n; i++)  
@@ -39,6 +38,7 @@ int main(){
     cout << "Second Largest Element is: " << sec << endl;
     return 0;
 }
+
 
 
 
